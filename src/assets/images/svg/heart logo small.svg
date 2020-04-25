@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M63.4792712,34.3944322 C67.4786461,30.8593455 70,25.6941483 70,19.9408213 C70,9.2845155 61.3501414,0.645872871 50.68,0.645872871 C44.346797,0.645872871 38.7253296,3.68922334 35.2018601,8.39145941 C31.7133175,3.37266931 25.9009084,0.086599005 19.32,0.086599005 C8.64985863,0.086599005 0,8.72524164 0,19.3815474 C0,25.159316 2.54282203,30.3439468 6.57177952,33.8801235 L35.2713178,63.9063173 L63.4792712,34.3944322 Z" id="path-1"></path>
+        <path d="M63.4792712,34.3944322 C67.4786461,30.8593455 70,25.6941483 70,19.9408213 C70,9.2845155 61.3501414,0.645872871 50.68,0.645872871 C44.346797,0.645872871 38.7253296,3.68922334 35.2018601,8.39145941 C31.7133175,3.37266931 25.9009084,0.086599005 19.32,0.086599005 C8.64985863,0.086599005 0,8.72524164 0,19.3815474 C0,25.159316 2.54282203,30.3439468 6.57177952,33.8801235 L35.2713178,63.9063173 L63.4792712,34.3944322 Z" id="path-3"></path>
+        <path d="M63.4792712,34.3944322 C67.4786461,30.8593455 70,25.6941483 70,19.9408213 C70,9.2845155 61.3501414,0.645872871 50.68,0.645872871 C44.346797,0.645872871 38.7253296,3.68922334 35.2018601,8.39145941 C31.7133175,3.37266931 25.9009084,0.086599005 19.32,0.086599005 C8.64985863,0.086599005 0,8.72524164 0,19.3815474 C0,25.159316 2.54282203,30.3439468 6.57177952,33.8801235 L35.2713178,63.9063173 L63.4792712,34.3944322 Z" id="path-5"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group" transform="translate(0.000000, 3.000000)">
+                <g id="a-link" fill-rule="nonzero" fill="#DEDFDF">
+                    <path d="M63.4792712,34.3944322 C67.4786461,30.8593455 70,25.6941483 70,19.9408213 C70,9.2845155 61.3501414,0.645872871 50.68,0.645872871 C44.346797,0.645872871 38.7253296,3.68922334 35.2018601,8.39145941 C31.7133175,3.37266931 25.9009084,0.086599005 19.32,0.086599005 C8.64985863,0.086599005 0,8.72524164 0,19.3815474 C0,25.159316 2.54282203,30.3439468 6.57177952,33.8801235 L35.2713178,63.9063173 L63.4792712,34.3944322 Z" id="a"></path>
+                </g>
+                <g id="Clipped">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="a"></g>
+                    <g id="Group" mask="url(#mask-2)">
+                        <g transform="translate(-23.333333, -16.766197)">
+                            <path d="M29.6797503,56.0594817 C44.2855866,56.0594817 56.1259562,44.2508349 56.1259562,29.6841307 C56.1259562,15.1174265 44.2855866,3.30877964 29.6797503,3.30877964 C15.0739142,3.30877964 3.23354456,15.1174265 3.23354456,29.6841307 C3.23354456,44.2508349 15.0739142,56.0594817 29.6797503,56.0594817 Z" id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(29.679750, 29.684131) rotate(7.500000) translate(-29.679750, -29.684131) "></path>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(10.310078, 5.228169)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(19.308322, 24.083424) rotate(142.500000) translate(-19.308322, -24.083424) " points="16.9569007 50.1070855 16.9569007 -2.3548863 18.4039291 -4.46418208 20.2127146 -4.46418208 21.659743 -2.3548863 21.659743 50.1070855 20.2308025 52.6310292 18.3858412 52.6310292"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(23.514212, 0.901408)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(6.204106, 28.780192) rotate(7.500000) translate(-6.204106, -28.780192) " points="3.85268499 54.8038536 3.85268499 2.34188174 5.29971341 0.232585968 7.10849894 0.232585968 8.55552736 2.34188174 8.55552736 54.8038536 7.1265868 57.3277972 5.28162556 57.3277972"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(16.459948, 2.343662)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(13.205932, 27.323957) rotate(22.500000) translate(-13.205932, -27.323957) " points="10.8545106 53.3476187 10.8545106 0.885646906 12.3015391 -1.22364887 14.1103246 -1.22364887 15.557353 0.885646906 15.557353 53.3476187 14.1284124 55.8715624 12.2834512 55.8715624"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(10.310078, 5.408451)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(19.308801, 24.232080) rotate(37.500000) translate(-19.308801, -24.232080) " points="16.9573794 50.2557423 16.9573794 -2.20622954 18.4044078 -4.31552532 20.2131934 -4.31552532 21.6602218 -2.20622954 21.6602218 50.2557423 20.2312812 52.7796859 18.38632 52.7796859"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(5.245478, 10.276056)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(24.334948, 19.326247) rotate(52.500000) translate(-24.334948, -19.326247) " points="21.9835268 45.3499086 21.9835268 -7.11206326 23.4305552 -9.22135903 25.2393408 -9.22135903 26.6863692 -7.11206326 26.6863692 45.3499086 25.2574286 47.8738522 23.4124674 47.8738522"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(2.170543, 16.405634)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(27.382820, 13.149887) rotate(67.500000) translate(-27.382820, -13.149887) " points="25.0313989 39.1735492 25.0313989 -13.2884227 26.4784273 -15.3977184 28.2872128 -15.3977184 29.7342413 -13.2884227 29.7342413 39.1735492 28.3053007 41.6974928 26.4603395 41.6974928"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.723514, 23.436620)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(28.815756, 6.066595) rotate(82.500000) translate(-28.815756, -6.066595) " points="26.4643347 32.0902567 26.4643347 -20.3717151 27.9113631 -22.4810109 29.7201486 -22.4810109 31.167177 -20.3717151 31.167177 32.0902567 29.7382365 34.6142004 27.8932752 34.6142004"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.723514, 23.256338)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(28.815829, 6.192551) rotate(97.500000) translate(-28.815829, -6.192551) " points="26.4644081 32.2162131 26.4644081 -20.2457588 27.9114365 -22.3550546 29.720222 -22.3550546 31.1672505 -20.2457588 31.1672505 32.2162131 29.7383099 34.7401567 27.8933486 34.7401567"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(2.170543, 16.225352)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(27.382515, 13.171417) rotate(112.500000) translate(-27.382515, -13.171417) " points="25.031094 39.1950791 25.031094 -13.2668928 26.4781224 -15.3761886 28.2869079 -15.3761886 29.7339363 -13.2668928 29.7339363 39.1950791 28.3049958 41.7190227 26.4600345 41.7190227"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(5.245478, 10.095775)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(24.335088, 19.254174) rotate(127.500000) translate(-24.335088, -19.254174) " points="21.9836673 45.2778363 21.9836673 -7.18413551 23.4306957 -9.29343128 25.2394812 -9.29343128 26.6865096 -7.18413551 26.6865096 45.2778363 25.2575691 47.80178 23.4126078 47.80178"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(16.459948, 1.983099)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(13.206051, 27.301466) rotate(157.500000) translate(-13.206051, -27.301466) " points="10.8546294 53.3251282 10.8546294 0.86315639 12.3016579 -1.24613938 14.1104434 -1.24613938 15.5574718 0.86315639 15.5574718 53.3251282 14.1285313 55.8490719 12.28357 55.8490719"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(23.514212, 0.540845)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(6.204071, 28.729763) rotate(172.500000) translate(-6.204071, -28.729763) " points="3.85264999 54.7534249 3.85264999 2.29145306 5.29967841 0.182157282 7.10846394 0.182157282 8.55549237 2.29145306 8.55549237 54.7534249 7.1265518 57.2773686 5.28159056 57.2773686"></polyline>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(23.695090, 0.540845)">
+                                <polyline id="Shape" fill="#1D5FC4" fill-rule="nonzero" transform="translate(6.077596, 28.729566) rotate(-172.500000) translate(-6.077596, -28.729566) " points="3.72617435 54.7532277 3.72617435 2.29125586 5.17320277 0.181960087 6.9819883 0.181960087 8.42901672 2.29125586 8.42901672 54.7532277 7.00007616 57.2771714 5.15511491 57.2771714"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Clipped">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="a"></g>
+                    <g id="Group" mask="url(#mask-4)">
+                        <g transform="translate(46.304910, -1.355718)">
+                            <ellipse id="Oval" fill="#42543F" fill-rule="nonzero" cx="19.8966408" cy="19.8309859" rx="18.2687339" ry="18.2084507"></ellipse>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(9.948320, 0.540845)">
+                                <g id="Shape" fill-rule="nonzero" fill="#41533E">
+                                    <polyline transform="translate(9.948323, 19.290141) rotate(22.500000) translate(-9.948323, -19.290141) " points="7.59690162 37.3183103 7.59690162 1.26197231 9.20672074 -0.540844595 10.6899249 -0.540844595 12.299744 1.26197231 12.299744 37.3183103 10.6899249 39.1211272 9.20672074 39.1211272"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(17.545220, 0.000000)">
+                                <g id="Shape" fill-rule="nonzero" fill="#41533E">
+                                    <polyline points="0 37.8591549 0 1.8028169 1.60981912 0 3.09302326 0 4.70284238 1.8028169 4.70284238 37.8591549 3.09302326 39.6619718 1.60981912 39.6619718"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(9.948320, 0.540845)">
+                                <g id="Shape" fill-rule="nonzero" fill="#41533E">
+                                    <polyline transform="translate(9.948323, 19.290141) rotate(22.500000) translate(-9.948323, -19.290141) " points="7.59690162 37.3183103 7.59690162 1.26197231 9.20672074 -0.540844595 10.6899249 -0.540844595 12.299744 1.26197231 12.299744 37.3183103 10.6899249 39.1211272 9.20672074 39.1211272"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(4.160207, 3.146479)">
+                                <g id="Shape" fill-rule="nonzero" fill="#41533E">
+                                    <polyline transform="translate(15.736516, 16.684541) rotate(45.000000) translate(-15.736516, -16.684541) " points="13.3850951 34.71271 13.3850951 -1.34362806 14.9949142 -3.14644496 16.4781183 -3.14644496 18.0879374 -1.34362806 18.0879374 34.71271 16.4781183 36.5155269 14.9949142 36.5155269"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.542636, 9.915493)">
+                                <g id="Shape" fill-rule="nonzero" fill="#41533E">
+                                    <polyline transform="translate(19.353942, 9.915451) rotate(67.500000) translate(-19.353942, -9.915451) " points="17.0025206 27.9436197 17.0025206 -8.11271829 18.6123397 -9.91553519 20.0955438 -9.91553519 21.7053629 -8.11271829 21.7053629 27.9436197 20.0955438 29.7464366 18.6123397 29.7464366"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 16.487324)">
+                                <g id="Shape" fill-rule="nonzero" fill="#41533E">
+                                    <polyline transform="translate(19.896641, 3.343662) rotate(90.000000) translate(-19.896641, -3.343662) " points="17.5452196 21.371831 17.5452196 -14.684507 19.1550388 -16.4873239 20.6382429 -16.4873239 22.248062 -14.684507 22.248062 21.371831 20.6382429 23.1746479 19.1550388 23.1746479"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.542636, 9.915493)">
+                                <g id="Shape" fill-rule="nonzero" fill="#41533E">
+                                    <polyline transform="translate(19.354061, 9.915577) rotate(112.500000) translate(-19.354061, -9.915577) " points="17.0026401 27.9437457 17.0026401 -8.11259229 18.6124593 -9.91540919 20.0956634 -9.91540919 21.7054825 -8.11259229 21.7054825 27.9437457 20.0956634 29.7465626 18.6124593 29.7465626"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(4.160207, 3.146479)">
+                                <g id="Shape" fill-rule="nonzero" fill="#41533E">
+                                    <polyline transform="translate(15.736516, 16.684705) rotate(135.000000) translate(-15.736516, -16.684705) " points="13.3850951 34.7128737 13.3850951 -1.34346432 14.9949142 -3.14628122 16.4781183 -3.14628122 18.0879374 -1.34346432 18.0879374 34.7128737 16.4781183 36.5156906 14.9949142 36.5156906"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(4.160207, 3.146479)">
+                                <g id="Shape" fill-rule="nonzero" fill="#41533E">
+                                    <polyline transform="translate(15.736516, 16.684705) rotate(135.000000) translate(-15.736516, -16.684705) " points="13.3850951 34.7128737 13.3850951 -1.34346432 14.9949142 -3.14628122 16.4781183 -3.14628122 18.0879374 -1.34346432 18.0879374 34.7128737 16.4781183 36.5156906 14.9949142 36.5156906"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(9.948320, 0.540845)">
+                                <g id="Shape" fill-rule="nonzero" fill="#41533E">
+                                    <polyline transform="translate(9.948303, 19.290054) rotate(157.500000) translate(-9.948303, -19.290054) " points="7.59688193 37.3182232 7.59688193 1.26188518 9.20670105 -0.540931717 10.6899052 -0.540931717 12.2997243 1.26188518 12.2997243 37.3182232 10.6899052 39.1210401 9.20670105 39.1210401"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(12.299742, 0.000000)">
+                                <g id="Shape" fill-rule="nonzero" fill="#41533E">
+                                    <polyline transform="translate(7.596892, 19.830934) rotate(165.000000) translate(-7.596892, -19.830934) " points="5.24547119 37.8591031 5.24547119 1.80276511 6.85529032 -5.17925168e-05 8.33849445 -5.17925168e-05 9.94831357 1.80276511 9.94831357 37.8591031 8.33849445 39.66192 6.85529032 39.66192"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Clipped">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="a"></g>
+                    <g id="Group" mask="url(#mask-6)">
+                        <g transform="translate(19.715762, 25.866817)">
+                            <ellipse id="Oval" fill="#BB1C1C" fill-rule="nonzero" cx="19.625323" cy="19.3802817" rx="17.6899225" ry="17.6315493"></ellipse>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(4.160207, 4.146479)">
+                                <g id="Shape" fill-rule="nonzero" fill="#BB1C1C">
+                                    <polyline transform="translate(15.374692, 15.323886) rotate(135.000000) translate(-15.374692, -15.323886) " points="13.0232703 32.8112096 13.0232703 -2.16343828 14.4522109 -3.96625518 16.2971721 -3.96625518 17.7261127 -2.16343828 17.7261127 32.8112096 16.2971721 34.6140265 14.4522109 34.6140265"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(6.330749, 2.163380)">
+                                <g id="Shape" fill-rule="nonzero" fill="#BB1C1C">
+                                    <polyline transform="translate(13.204050, 17.307039) rotate(35.000000) translate(-13.204050, -17.307039) " points="10.8526284 34.7943626 10.8526284 -0.180285294 12.281569 -1.9831022 14.1265302 -1.9831022 15.5554708 -0.180285294 15.5554708 34.7943626 14.1265302 36.5971795 12.281569 36.5971795"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(2.170543, 6.309859)">
+                                <g id="Shape" fill-rule="nonzero" fill="#BB1C1C">
+                                    <polyline transform="translate(17.364431, 13.160518) rotate(55.000000) translate(-17.364431, -13.160518) " points="15.0130095 30.6478416 15.0130095 -4.32680626 16.44195 -6.12962316 18.2869113 -6.12962316 19.7158519 -4.32680626 19.7158519 30.6478416 18.2869113 32.4506585 16.44195 32.4506585"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.180879, 12.078873)">
+                                <g id="Shape" fill-rule="nonzero" fill="#BB1C1C">
+                                    <polyline transform="translate(19.353917, 7.391589) rotate(75.000000) translate(-19.353917, -7.391589) " points="17.0024962 24.8789133 17.0024962 -10.0957346 18.4314368 -11.8985515 20.276398 -11.8985515 21.7053386 -10.0957346 21.7053386 24.8789133 20.276398 26.6817302 18.4314368 26.6817302"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 15.323944)">
+                                <g id="Shape" fill-rule="nonzero" fill="#BB1C1C">
+                                    <polyline transform="translate(19.534965, 4.146502) rotate(95.000000) translate(-19.534965, -4.146502) " points="17.1835436 21.6338258 17.1835436 -13.340822 18.6124842 -15.1436389 20.4574454 -15.1436389 21.886386 -13.340822 21.886386 21.6338258 20.4574454 23.4366427 18.6124842 23.4366427"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.904393, 9.014085)">
+                                <g id="Shape" fill-rule="nonzero" fill="#BB1C1C">
+                                    <polyline transform="translate(18.629977, 10.456363) rotate(115.000000) translate(-18.629977, -10.456363) " points="16.2785556 27.9436866 16.2785556 -7.03096134 17.7074961 -8.83377824 19.5524574 -8.83377824 20.9813979 -7.03096134 20.9813979 27.9436866 19.5524574 29.7465035 17.7074961 29.7465035"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(9.043928, 0.901408)">
+                                <g id="Shape" fill-rule="nonzero" fill="#BB1C1C">
+                                    <polyline transform="translate(10.491210, 18.568779) rotate(155.000000) translate(-10.491210, -18.568779) " points="8.1397891 36.0561028 8.1397891 1.08145496 9.56872967 -0.721361944 11.4136909 -0.721361944 12.8426315 1.08145496 12.8426315 36.0561028 11.4136909 37.8589197 9.56872967 37.8589197"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(15.374677, 0.000000)">
+                                <g id="Shape" fill-rule="nonzero" fill="#BB1C1C">
+                                    <polyline transform="translate(4.160147, 19.470463) rotate(175.000000) translate(-4.160147, -19.470463) " points="1.80872598 36.957787 1.80872598 1.98313912 3.23766655 0.180322217 5.08262779 0.180322217 6.51156835 1.98313912 6.51156835 36.957787 5.08262779 38.7606039 3.23766655 38.7606039"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(12.118863, 0.180282)">
+                                <g id="Shape" fill-rule="nonzero" fill="#BB1C1C">
+                                    <polyline transform="translate(7.416005, 19.290145) rotate(15.000000) translate(-7.416005, -19.290145) " points="5.06458373 36.7774686 5.06458373 1.80282067 6.4935243 3.76867007e-06 8.33848554 3.76867007e-06 9.76742611 1.80282067 9.76742611 36.7774686 8.33848554 38.5802855 6.4935243 38.5802855"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

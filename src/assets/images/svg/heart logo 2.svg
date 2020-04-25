@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="418px" height="418px" viewBox="0 0 418 418" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M364.949685,222.301262 C387.060515,202.692578 401,174.041876 401,142.128889 C401,83.0196931 353.178639,35.1022222 294.188,35.1022222 C259.174435,35.1022222 228.095751,51.9833068 208.615998,78.0660225 C189.329341,50.2274212 157.195022,32 120.812,32 C61.8213613,32 14,79.9174708 14,139.026667 C14,171.075227 28.0581732,199.833727 50.3325525,219.448457 L209,386 L364.949685,222.301262 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#FCE0A8" xlink:href="#path-1"></use>
+            <g id="blue-gear" mask="url(#mask-2)">
+                <g transform="translate(-130.000000, -77.000000)" id="Group">
+                    <g transform="translate(179.450105, 179.019646) rotate(-352.500000) translate(-179.450105, -179.019646) translate(19.450105, 19.519646)">
+                        <path d="M159.790262,306.992528 C240.539671,306.992528 306,241.49144 306,160.691753 C306,79.8920657 240.539671,14.3909774 159.790262,14.3909774 C79.0408537,14.3909774 13.5805243,79.8920657 13.5805243,160.691753 C13.5805243,241.49144 79.0408537,306.992528 159.790262,306.992528 Z" id="Oval-581" fill="#3CBCFC"></path>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-225.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-345.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-330.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-315.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-300.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-285.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-270.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-255.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-240.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-210.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-195.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                        <g id="Blue-Spoke" transform="translate(160.000000, 159.500000) rotate(-180.000000) translate(-160.000000, -159.500000) translate(147.000000, -0.000000)" fill="#3CBCFC">
+                            <g id="Spoke" transform="translate(0.000000, 2.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="0 303 0 12 8 0.254882812 18 0.254882812 26 12 26 303 18.0909091 317 7.90909091 317"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="green-gear" mask="url(#mask-2)">
+                <g transform="translate(270.000000, 24.000000)">
+                    <g>
+                        <circle id="Oval-581-Copy" fill="#00A844" cx="110" cy="110" r="101"></circle>
+                        <g id="Green-Spoke" transform="translate(110.000000, 110.000000) rotate(22.500000) translate(-110.000000, -110.000000) translate(97.000000, 0.000000)" fill="#00A844">
+                            <g id="Spoke">
+                                <polygon id="Rectangle-98-Copy-9" points="0 210 0 10 8.90909091 0 17.0909091 0 26 10 26 210 17.0909091 220 8.90909091 220"></polygon>
+                            </g>
+                        </g>
+                        <g id="Green-Spoke" transform="translate(97.000000, 0.000000)" fill="#00A844">
+                            <g id="Spoke">
+                                <polygon id="Rectangle-98-Copy-9" points="0 210 0 10 8.90909091 0 17.0909091 0 26 10 26 210 17.0909091 220 8.90909091 220"></polygon>
+                            </g>
+                        </g>
+                        <g id="Green-Spoke" transform="translate(110.000000, 110.000000) rotate(-337.500000) translate(-110.000000, -110.000000) translate(97.000000, 0.000000)" fill="#00A844">
+                            <g id="Spoke">
+                                <polygon id="Rectangle-98-Copy-9" points="0 210 0 10 8.90909091 0 17.0909091 0 26 10 26 210 17.0909091 220 8.90909091 220"></polygon>
+                            </g>
+                        </g>
+                        <g id="Green-Spoke" transform="translate(110.000000, 110.000000) rotate(-315.000000) translate(-110.000000, -110.000000) translate(97.000000, 0.000000)" fill="#00A844">
+                            <g id="Spoke">
+                                <polygon id="Rectangle-98-Copy-9" points="0 210 0 10 8.90909091 0 17.0909091 0 26 10 26 210 17.0909091 220 8.90909091 220"></polygon>
+                            </g>
+                        </g>
+                        <g id="Green-Spoke" transform="translate(110.000000, 110.000000) rotate(-292.500000) translate(-110.000000, -110.000000) translate(97.000000, 0.000000)" fill="#00A844">
+                            <g id="Spoke">
+                                <polygon id="Rectangle-98-Copy-9" points="0 210 0 10 8.90909091 0 17.0909091 0 26 10 26 210 17.0909091 220 8.90909091 220"></polygon>
+                            </g>
+                        </g>
+                        <g id="Green-Spoke" transform="translate(110.000000, 110.000000) rotate(-270.000000) translate(-110.000000, -110.000000) translate(97.000000, 0.000000)" fill="#00A844">
+                            <g id="Spoke">
+                                <polygon id="Rectangle-98-Copy-9" points="0 210 0 10 8.90909091 0 17.0909091 0 26 10 26 210 17.0909091 220 8.90909091 220"></polygon>
+                            </g>
+                        </g>
+                        <g id="Green-Spoke" transform="translate(110.000000, 110.000000) rotate(-247.500000) translate(-110.000000, -110.000000) translate(97.000000, 0.000000)" fill="#00A844">
+                            <g id="Spoke">
+                                <polygon id="Rectangle-98-Copy-9" points="0 210 0 10 8.90909091 0 17.0909091 0 26 10 26 210 17.0909091 220 8.90909091 220"></polygon>
+                            </g>
+                        </g>
+                        <g id="Green-Spoke" transform="translate(110.000000, 110.000000) rotate(135.000000) translate(-110.000000, -110.000000) translate(97.000000, 0.000000)" fill="#00A844">
+                            <g id="Spoke">
+                                <polygon id="Rectangle-98-Copy-9" points="0 210 0 10 8.90909091 0 17.0909091 0 26 10 26 210 17.0909091 220 8.90909091 220"></polygon>
+                            </g>
+                        </g>
+                        <g id="Green-Spoke" transform="translate(110.000000, 110.000000) rotate(-225.000000) translate(-110.000000, -110.000000) translate(97.000000, 0.000000)" fill="#00A844">
+                            <g id="Spoke">
+                                <polygon id="Rectangle-98-Copy-9" points="0 210 0 10 8.90909091 0 17.0909091 0 26 10 26 210 17.0909091 220 8.90909091 220"></polygon>
+                            </g>
+                        </g>
+                        <g id="Green-Spoke" transform="translate(110.000000, 110.000000) rotate(157.500000) translate(-110.000000, -110.000000) translate(97.000000, 0.000000)" fill="#00A844">
+                            <g id="Spoke">
+                                <polygon id="Rectangle-98-Copy-9" points="0 210 0 10 8.90909091 0 17.0909091 0 26 10 26 210 17.0909091 220 8.90909091 220"></polygon>
+                            </g>
+                        </g>
+                        <g id="Green-Spoke" transform="translate(110.000000, 110.000000) rotate(-195.000000) translate(-110.000000, -110.000000) translate(97.000000, 0.000000)" fill="#00A844">
+                            <g id="Spoke">
+                                <polygon id="Rectangle-98-Copy-9" points="0 210 0 10 8.90909091 0 17.0909091 0 26 10 26 210 17.0909091 220 8.90909091 220"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="orange-gear" mask="url(#mask-2)">
+                <g transform="translate(123.000000, 175.000000)">
+                    <g>
+                        <circle id="Oval-583" fill="#E45C10" cx="108.5" cy="107.5" r="97.75"></circle>
+                        <g id="Orange-Spoke" transform="translate(108.000000, 108.000000) rotate(-225.000000) translate(-108.000000, -108.000000) translate(95.000000, 1.000000)" fill="#E45C10">
+                            <g id="Spoke" transform="translate(0.000000, 0.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="8.66976734e-07 204 0 10 7.90909091 0 18.0909091 0 26 10 26.0000009 204 18.09091 214 7.90909178 214"></polygon>
+                            </g>
+                        </g>
+                        <g id="Orange-Spoke" transform="translate(108.000000, 108.000000) rotate(-325.000000) translate(-108.000000, -108.000000) translate(95.000000, 1.000000)" fill="#E45C10">
+                            <g id="Spoke" transform="translate(0.000000, 0.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="8.66976734e-07 204 0 10 7.90909091 0 18.0909091 0 26 10 26.0000009 204 18.09091 214 7.90909178 214"></polygon>
+                            </g>
+                        </g>
+                        <g id="Orange-Spoke" transform="translate(108.000000, 108.000000) rotate(-305.000000) translate(-108.000000, -108.000000) translate(95.000000, 1.000000)" fill="#E45C10">
+                            <g id="Spoke" transform="translate(0.000000, 0.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="8.66976734e-07 204 0 10 7.90909091 0 18.0909091 0 26 10 26.0000009 204 18.09091 214 7.90909178 214"></polygon>
+                            </g>
+                        </g>
+                        <g id="Orange-Spoke" transform="translate(108.000000, 108.000000) rotate(-285.000000) translate(-108.000000, -108.000000) translate(95.000000, 1.000000)" fill="#E45C10">
+                            <g id="Spoke" transform="translate(0.000000, 0.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="8.66976734e-07 204 0 10 7.90909091 0 18.0909091 0 26 10 26.0000009 204 18.09091 214 7.90909178 214"></polygon>
+                            </g>
+                        </g>
+                        <g id="Orange-Spoke" transform="translate(108.000000, 108.000000) rotate(-265.000000) translate(-108.000000, -108.000000) translate(95.000000, 1.000000)" fill="#E45C10">
+                            <g id="Spoke" transform="translate(0.000000, 0.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="8.66976734e-07 204 0 10 7.90909091 0 18.0909091 0 26 10 26.0000009 204 18.09091 214 7.90909178 214"></polygon>
+                            </g>
+                        </g>
+                        <g id="Orange-Spoke" transform="translate(108.000000, 108.000000) rotate(-245.000000) translate(-108.000000, -108.000000) translate(95.000000, 1.000000)" fill="#E45C10">
+                            <g id="Spoke" transform="translate(0.000000, 0.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="8.66976734e-07 204 0 10 7.90909091 0 18.0909091 0 26 10 26.0000009 204 18.09091 214 7.90909178 214"></polygon>
+                            </g>
+                        </g>
+                        <g id="Orange-Spoke" transform="translate(108.000000, 108.000000) rotate(-205.000000) translate(-108.000000, -108.000000) translate(95.000000, 1.000000)" fill="#E45C10">
+                            <g id="Spoke" transform="translate(0.000000, 0.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="8.66976734e-07 204 0 10 7.90909091 0 18.0909091 0 26 10 26.0000009 204 18.09091 214 7.90909178 214"></polygon>
+                            </g>
+                        </g>
+                        <g id="Orange-Spoke" transform="translate(108.000000, 108.000000) rotate(-185.000000) translate(-108.000000, -108.000000) translate(95.000000, 1.000000)" fill="#E45C10">
+                            <g id="Spoke" transform="translate(0.000000, 0.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="8.66976734e-07 204 0 10 7.90909091 0 18.0909091 0 26 10 26.0000009 204 18.09091 214 7.90909178 214"></polygon>
+                            </g>
+                        </g>
+                        <g id="Orange-Spoke" transform="translate(108.000000, 108.000000) rotate(-345.000000) translate(-108.000000, -108.000000) translate(95.000000, 1.000000)" fill="#E45C10">
+                            <g id="Spoke" transform="translate(0.000000, 0.000000)">
+                                <polygon id="Rectangle-98-Copy-9" points="8.66976734e-07 204 0 10 7.90909091 0 18.0909091 0 26 10 26.0000009 204 18.09091 214 7.90909178 214"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

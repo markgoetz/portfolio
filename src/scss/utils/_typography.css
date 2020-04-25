@@ -1,0 +1,107 @@
+.txt {
+    font-family:  var(--font-body);
+    font-size: 1.6rem;
+    color: var(--color-darkgrey);
+    line-height: 1.5;
+}
+
+@media (min-width: 950px) {
+    .txt {
+        font-size: 1.8rem;
+    }
+}
+
+.txt-pagetitle {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 3.6rem;
+    color: var(--color-lightprimary);
+    text-transform: lowercase;
+}
+
+@media (min-width: 700px) {
+    .txt-pagetitle {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 950px) {
+    .txt-pagetitle {
+        font-size: 4.8rem;
+    }
+}
+
+.txt-white {
+    color: var(--color-lightgrey);
+}
+
+.heading {
+    font-family: var(--font-heading);
+    color: var(--color-dark);
+}
+
+.heading-1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.heading-2 {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.heading-3 {
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.heading-white {
+    color: var(--color-white);
+}
+
+.heading-decorated::before, .heading-decorated::after {
+    background-image: url('../../assets/images/svg/dots.svg');
+    background-size: 15px 15px;
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    content: ' ';
+    display: inline-block;
+}
+
+.heading-decorated::before {
+    margin-right: 15px;
+}
+
+.heading-decorated::after {
+    margin-left: 15px;
+}
+
+@media (min-width: 950px) {
+    .heading-decorated::before, .heading-decorated::after {
+        background-size: 20px 20px;
+        height: 20px;
+        width: 20px;
+    }    
+
+    .heading-decorated::before {
+        margin-right: 20px;
+    }
+
+    .heading-decorated::after {
+        margin-left: 20px;
+    }
+}
+
+
+
+@media (min-width: 950px) {
+    .heading-1 {
+        font-size: 3.6rem;
+    }
+
+    .heading-2 {
+        font-size: 3rem;
+    }
+}

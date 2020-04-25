@@ -1,0 +1,29 @@
+.twocolumnlayout {
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+}
+
+.twocolumnlayout > * {
+    margin: 15px;
+}
+
+@media (min-width: 950px) {
+    .twocolumnlayout {
+        flex-direction: row;
+        grid-template-rows: 1fr;
+        grid-template-columns: 2fr 1fr;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .twocolumnlayout :last-child {
+        flex-basis: 33%;
+    }
+
+    .twocolumnlayout > * {
+        margin: 20px;
+    }
+}

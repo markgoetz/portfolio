@@ -1,0 +1,13 @@
+:root {
+    --color-white: #ffffff;
+    --color-lightgrey: #dedfdf;
+    --color-lightprimary: #cbf4c4;
+    --color-bright: #1d5fc4;
+    --color-deep: #bb1c1c;
+    --color-dark: #42543f;
+    --color-darkgrey: #242527;
+    --color-transparentblack: rgba(36, 37, 39, .8);
+
+    --font-heading: 'Exo 2', 'Helvetica', sans-serif;
+    --font-body: 'PT Sans', 'Helvetica', sans-serif;
+}
