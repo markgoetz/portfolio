@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+import Header from "./Header"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,8 +27,8 @@ const Layout = ({ children }) => {
             <Header siteTitle={data.site.siteMetadata.title} />
             <main>{children}</main>
             <footer className="tier tier-centered tier-darkbackground tier-nomargin">
-                <div class="vlist vlist-small vlist-centeritems">
-                    <p class="txt txt-white">
+                <div className="vlist vlist-small vlist-centeritems">
+                    <p className="txt txt-white">
                         Copyright {new Date().getFullYear()} Markandrewgoetz.com. All rights reserved
                         &nbsp;•&nbsp;
                         Built with <a href="https://www.gatsbyjs.org">Gatsby</a>

@@ -1,7 +1,7 @@
 ---
 slug: "divisionizer"
 title: "Divisionizer"
-headerImage: "divisionizer.png"
+headerImage: "divisionizer"
 skills:
     - CSS
     - Sass

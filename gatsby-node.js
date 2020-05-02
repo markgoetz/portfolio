@@ -1,11 +1,9 @@
 const path = require('path');
 
-exports.createPages = async({ actions, graphql, reporter }) => {
+const createStaticPages = async ({ actions, graphql, reporter }) => {
     const { createPage } = actions;
 
-    const staticTemplate = path.resolve('src/templates/static.js');
-    const projectTemplate = path.resolve('src/templates/project.js');
-
+    const staticTemplate = path.resolve('src/templates/StaticTemplate.js');
     const staticQuery = await graphql(`
         {
             allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/markdown-pages/"}})
@@ -33,7 +31,12 @@ exports.createPages = async({ actions, graphql, reporter }) => {
             context: {},
         });
     });
+};
 
+const createProjectPages = async({ actions, graphql, reporter }) => {
+    const { createPage } = actions;
+
+    const projectTemplate = path.resolve('src/templates/ProjectTemplate.js');
     const projectQuery = await graphql(`
     {
         allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projects/"}}) {
@@ -63,7 +66,12 @@ exports.createPages = async({ actions, graphql, reporter }) => {
         createPage({
             path: `/projects/${node.frontmatter.slug}`,
             component: projectTemplate,
-            context: { slug: node.frontmatter.slug },
+            context: { slug: node.frontmatter.slug, headerImage: node.frontmatter.headerImage },
         });
     });
+};
+
+exports.createPages = async({ actions, graphql, reporter }) => {
+    await createStaticPages({ actions, graphql, reporter });
+    await createProjectPages({ actions, graphql, reporter });
 }
