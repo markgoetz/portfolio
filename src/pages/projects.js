@@ -28,7 +28,7 @@ const ProjectsListPage = ({ data }) => {
     return (
         <Layout>
             <SEO title="Projects" />
-            <div className="tier tier-max950">
+            <div className="tier tier-max900">
                 <h1 className="heading heading-1">Projects</h1>
                 <div className="spacer" />
                 <ul className="vlist">
