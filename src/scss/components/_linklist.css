@@ -1,0 +1,9 @@
+.linklist {
+
+}
+
+.linklist-item {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 2;
+}

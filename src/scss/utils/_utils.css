@@ -1,0 +1,27 @@
+.mix-visuallyHidden {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+@media (min-width: 700px) {
+    .mix-hideondesktop {
+        display: none !important;
+    }
+}
+
+.mix-closeonmobile {
+    height: 0px;
+    opacity: 0;
+}
+
+@media(min-width: 700px) {
+    .mix-closeonmobile {
+        height: auto;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,36 @@
+.sidebar {
+    display: flex;
+    padding: 15px;
+    background-color: var(--color-lightgrey);
+    flex-direction: column;
+}
+
+.sidebar > * {
+    flex-grow: 1;
+}
+
+.sidebar > *+* {
+    margin-top: 20px;
+}
+
+@media (min-width: 700px) {
+    .sidebar {
+        flex-direction: row;
+        justify-content: stretch;
+    }
+
+    .sidebar > *+* {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 950px) {
+    .sidebar {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .sidebar > *+* {
+        margin-top: 50px;
+    }
+}

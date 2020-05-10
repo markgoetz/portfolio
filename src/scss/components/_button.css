@@ -1,0 +1,21 @@
+.button {
+    background-color: var(--color-bright);
+    transition: background-color .25s;
+    font-family: var(--font-heading);
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.button:hover {
+    background-color: var(--color-deep);
+}
+
+@media (min-width: 950px) {
+    .button {
+        font-size: 2.4rem;
+        padding: 15px 40px;
+    }
+}
