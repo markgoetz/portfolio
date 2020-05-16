@@ -4,7 +4,7 @@ import React from "react"
 
 import LogoUrl from '../assets/images/svg/heart logo small.svg';
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, links }) => (
     <header className="menubar">
         <div className="headerlist">
             <div className="headerlist-item">
@@ -31,16 +31,13 @@ const Header = ({ siteTitle }) => (
                     </div>
                     <div className="submenu-maxspace">
                         <ul className="submenu">
-                            {/* TODO: Pull this in from queries */}
-                            <li className="menuitem">
-                                <Link className="menulink menulink-icon menulink-icon-github" to="http://www.github.com/markgoetz">Github</Link>
-                            </li>
-                            <li className="menuitem">
-                                <Link className="menulink menulink-icon menulink-icon-linkedin" to="http://www.linkedin.com/in/markgoetz">LinkedIn</Link>
-                            </li>
-                            <li className="menuitem">
-                                <Link className="menulink menulink-icon menulink-icon-email" to="mailto:mark@markandrewgoetz.com">Email</Link>
-                            </li>
+                            {
+                                links.map(link => (
+                                    <li className="menuitem" key={link.serviceName}>
+                                        <a href={link.url} className={`menulink menulink-icon menulink-icon-${link.className}`}>{link.serviceName}</a>
+                                    </li>
+                                ))
+                            }
                         </ul>
                     </div>
                 </nav>
@@ -50,11 +47,17 @@ const Header = ({ siteTitle }) => (
 )
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+    siteTitle: PropTypes.string,
+    links: PropTypes.arrayOf(PropTypes.shape({
+        className: PropTypes.string,
+        serviceName: PropTypes.string,
+        url: PropTypes.string,
+    })),
 }
 
 Header.defaultProps = {
   siteTitle: ``,
+  links: [],
 }
 
 export default Header

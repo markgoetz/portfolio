@@ -10,6 +10,11 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          links {
+            className
+            serviceName
+            url
+          }
         }
       }
     }
@@ -17,7 +22,7 @@ const Layout = ({ children }) => {
 
     return (
         <div id="container">
-            <Header siteTitle={data.site.siteMetadata.title} />
+            <Header siteTitle={data.site.siteMetadata.title} links={data.site.siteMetadata.links} />
             <main>{children}</main>
             <footer className="tier tier-centered tier-darkbackground tier-nomargin">
                 <div className="vlist vlist-small vlist-centeritems">

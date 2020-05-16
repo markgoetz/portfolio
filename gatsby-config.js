@@ -3,6 +3,12 @@ module.exports = {
     title: `Mark Goetz`,
     description: `Portfolio of Mark Goetz, a web developer in Chicago.  Designy outside, mathy inside.`,
     author: `@markdoesnttweet`,
+    links: [
+      { className: 'github', serviceName: 'GitHub', url: 'http://www.github.com/markgoetz' },
+      { className: 'linkedin', serviceName: 'LinkedIn', url: 'http://www.linkedin.com/in/markgoetz' },
+      { className: 'codepen', serviceName: 'CodePen', url: 'https://codepen.io/markgoetz' },
+      { className: 'email', serviceName: 'Email', url: 'mailto:mark@markandrewgoetz.com' },
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
