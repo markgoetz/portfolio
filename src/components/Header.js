@@ -1,50 +1,58 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { useState } from "react"
 
 import LogoUrl from '../assets/images/svg/heart logo small.svg';
 
-const Header = ({ siteTitle, links }) => (
-    <header className="menubar">
-        <div className="headerlist">
-            <div className="headerlist-item">
-                <Link to="/" className="link-homepage">
-                    <div className="flag">
-                        <div className="flag-image">
-                            <img src={LogoUrl} alt="Small logo of a heart made of gears" width="70" height="70" />
+const Header = ({ siteTitle, links }) => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => { setIsMenuOpen(!isMenuOpen); }
+
+    const menuClassName = (isMenuOpen ? '' : 'mix-closeonmobile ') + 'headerlist-item headerlist-item-maxwidth';
+
+    return (
+        <header className="menubar">
+            <div className="headerlist">
+                <div className="headerlist-item">
+                    <Link to="/" className="link-homepage">
+                        <div className="flag">
+                            <div className="flag-image">
+                                <img src={LogoUrl} alt="Small logo of a heart made of gears" width="70" height="70" />
+                            </div>
+                            <div className="flag-text txt-pagetitle">{siteTitle}</div>
                         </div>
-                        <div className="flag-text txt-pagetitle">{siteTitle}</div>
-                    </div>
-                </Link>
+                    </Link>
+                </div>
+                <div className="mix-hideondesktop headerlist-item">
+                    <button type="button" className="menubutton" onClick={toggleMenu}>Menu</button>
+                </div>
+                <div className={menuClassName}>
+                    <nav className="menu" id="menu">
+                        <div>
+                            <ul className="submenu">
+                                <li className="menuitem"><Link className="menulink" to="/projects">Projects</Link></li>
+                                <li className="menuitem"><Link className="menulink" to="/static/about">About</Link></li>
+                                <li className="menuitem"><Link className="menulink" to="/static/resume">Resume</Link></li>
+                            </ul>
+                        </div>
+                        <div className="submenu-maxspace">
+                            <ul className="submenu">
+                                {
+                                    links.map(link => (
+                                        <li className="menuitem" key={link.serviceName}>
+                                            <a href={link.url} className={`menulink menulink-icon menulink-icon-${link.className}`}>{link.serviceName}</a>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
-            <div className="mix-hideondesktop headerlist-item">
-                <button aria-hidden="true" id="menu-button" className="menubutton">menu</button>
-            </div>
-            <div className="mix-closeonmobile headerlist-item headerlist-item-maxwidth" id="menucontainer">
-                <nav className="menu" id="menu">
-                    <div>
-                        <ul className="submenu">
-                            <li className="menuitem"><Link className="menulink" to="/projects">Projects</Link></li>
-                            <li className="menuitem"><Link className="menulink" to="/static/about">About</Link></li>
-                            <li className="menuitem"><Link className="menulink" to="/static/resume">Resume</Link></li>
-                        </ul>
-                    </div>
-                    <div className="submenu-maxspace">
-                        <ul className="submenu">
-                            {
-                                links.map(link => (
-                                    <li className="menuitem" key={link.serviceName}>
-                                        <a href={link.url} className={`menulink menulink-icon menulink-icon-${link.className}`}>{link.serviceName}</a>
-                                    </li>
-                                ))
-                            }
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
-)
+        </header>
+    );
+};
 
 Header.propTypes = {
     siteTitle: PropTypes.string,
