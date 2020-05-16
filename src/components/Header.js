@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import LogoUrl from '../assets/images/svg/heart logo small.svg';
+
 const Header = ({ siteTitle }) => (
     <header className="menubar">
         <div className="headerlist">
@@ -9,8 +11,7 @@ const Header = ({ siteTitle }) => (
                 <Link to="/" className="link-homepage">
                     <div className="flag">
                         <div className="flag-image">
-                            {/* TODO FIXXXX */}
-                            <img src="/assets/images/svg/heart logo small.svg" alt="" width="70" height="70" />
+                            <img src={LogoUrl} alt="Small logo of a heart made of gears" width="70" height="70" />
                         </div>
                         <div className="flag-text txt-pagetitle">{siteTitle}</div>
                     </div>
