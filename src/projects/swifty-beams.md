@@ -2,6 +2,7 @@
 slug: "swifty-beams"
 title: "Swifty Beams"
 headerImage: "swifty beams"
+order: 3
 skills:
     - JavaScript
     - Canvas

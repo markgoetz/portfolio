@@ -90,7 +90,7 @@ const IndexPage = ({ data }) => {
 
 export const pageQuery = graphql`
     query {
-        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projects/"}}) {
+        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/projects/"}}, sort: {fields: frontmatter___order}) {
             edges {
                 node {
                     frontmatter {

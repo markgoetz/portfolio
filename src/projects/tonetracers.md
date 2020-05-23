@@ -2,6 +2,7 @@
 slug: "tonetracers"
 title: "Tonetracers"
 headerImage: "tonetracers"
+order: 2
 skills:
     - JavaScript
     - Canvas

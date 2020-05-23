@@ -2,6 +2,7 @@
 slug: "divisionizer"
 title: "Divisionizer"
 headerImage: "divisionizer"
+order: 1
 skills:
     - CSS
     - Sass
