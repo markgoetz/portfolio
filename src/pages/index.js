@@ -32,10 +32,10 @@ const IndexPage = ({ data }) => {
                         <Hero />
                     </div>
                     <div className="container">
-                    <h1 className="heading heading-1">
-                        I'm Mark Goetz, a web developer and designer in Chicago.
-                    </h1>
-                    <div className="spacer" />
+                        <h1 className="heading heading-1">
+                            I'm Mark Goetz, a web developer and designer in Chicago.
+                        </h1>
+                        <div className="spacer" />
                         <p className="txt">
                             As a UX designer for 7 years and a developer for over 20, I combine deep technical knowledge with good design sense to make delightful web experiences.
                             I specialize in JavaScript, animations, and microinteractions.
