@@ -74,14 +74,14 @@ const IndexPage = ({ data }) => {
                         <li className="tagblock-item">VueJS</li>
                         <li className="tagblock-item">Sass</li>
                     </ul>
-                    <Link to="/resume" className="button">My Resume</Link>
+                    <Link to="/static/resume" className="button">My Resume</Link>
                 </div>
             </section>
             <section className="tier tier-centered tier-lightbackground tier-max900">
                 <div className="vlist vlist-small vlist-centeritems">
                     <h2 className="heading heading-2 heading-decorated">About Me</h2>
                     <p className="txt">I am also a human being! &nbsp;Learn more about me here!</p>
-                    <Link to="/about" className="button">About Me</Link>
+                    <Link to="/static/about" className="button">About Me</Link>
                 </div>
             </section>
         </Layout>
