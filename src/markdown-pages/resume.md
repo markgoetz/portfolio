@@ -20,15 +20,16 @@ To make use of my extensive programming background and my prior experience as a 
 - Sass
 
 ## Work Experience
-### Senior Software Engineer
+### Senior Software Engineer + Senior Mentor
 
 #### Nerdery, 11/2016 – Present
 
-- Develop interactive and accessible websites and apps for various clients, using a range of technologies including ES6, React, VueJS, Sass, and HTML5, including leading front-end development on an internal admin portal
+- Develop interactive and accessible websites and apps for various clients, using a range of technologies including ES6, React, VueJS, Sass, and HTML5, including leading front-end development on a consumer-facing privacy app
 - Consult with back-end developers to ensure correct integration of front-end code and design of APIs
-- Consult with product owners to assess technical feasibility of ideas and advise on alternatives as needed
+- Consult with product owners and designers to assess technical feasibility of ideas, and advise on alternatives as needed
 - Led development of internal office project with React, Redux, TypeScript, and Sass; coordinated efforts of a front-end and back-end developer, resulting in a dashboard that is used on a daily basis throughout the office
-- Gave internal presentations about JavaScript technologies and techniques to larger front-end team
+- Give internal presentations about JavaScript technologies and techniques to larger front-end team
+- Guide associate-level engineers on technical concerns and career development
 
 
 ### User Experience Architect
