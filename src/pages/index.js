@@ -6,7 +6,7 @@ import SEO from '../components/SEO';
 import Hero from '../assets/images/svg/inline/heart-logo.inline.svg';
 
 const ProjectItem = ({ frontmatter, imageUrl }) => (
-    <Link to={`/projects/${frontmatter.slug}`}>>
+    <Link to={`/projects/${frontmatter.slug}`}>
         <div className="project project-hover">
             <div className="project-namecontainer">
                 <h3 className="heading heading-3 heading-white">{frontmatter.title}</h3>
