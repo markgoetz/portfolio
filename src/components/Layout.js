@@ -7,18 +7,18 @@ import Header from "./Header"
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-          links {
-            className
-            serviceName
-            url
-          }
+        site {
+            siteMetadata {
+                title
+                    links {
+                        className
+                        serviceName
+                        url
+                    }
+                }
+            }
         }
-      }
-    }
-  `)
+    `);
 
     return (
         <div id="container">

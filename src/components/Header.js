@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 
-import LogoUrl from '../assets/images/svg/heart logo small.svg';
+import LogoUrl from '../assets/images/svg/81-squares-header.svg';
 
 const Header = ({ siteTitle, links }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

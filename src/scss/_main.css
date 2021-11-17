@@ -1,11 +1,11 @@
 @import "utils/_reset.css";
 @import "utils/_elements.css";
 @import "utils/_fonts.css";
-@import "utils/_utils.css";
+/* @import "utils/_utils.css";
 @import "utils/_typography.css";
-@import "utils/_variables.css";
+@import "utils/_variables.css"; */
 
-@import "containers/_grid.css";
+/* @import "containers/_grid.css";
 @import "containers/_header.css";
 @import "containers/_list.css";
 @import "containers/_menubar.css";
@@ -22,4 +22,4 @@
 @import "components/_project.css";
 @import "components/_usercontent.css";
 
-@import "layouts/_twocolumnlayout.css";
+@import "layouts/_twocolumnlayout.css"; */
