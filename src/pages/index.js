@@ -3,6 +3,7 @@ import { graphql, Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
+import ButtonLink from '../components/ButtonLink';
 // import Hero from '../assets/images/svg/inline/heart-logo.inline.svg';
 
 const ProjectItem = ({ frontmatter, imageUrl }) => (
@@ -59,7 +60,7 @@ const IndexPage = ({ data }) => {
                             );
                         })}
                     </ul>
-                    <Link to="/projects" className="button">All Projects</Link>
+                    <ButtonLink url="/projects" caption="All Projects" />
                 </div>
             </section>
             <section className="tier tier-centered tier-lightbackground tier-max900">
@@ -74,14 +75,14 @@ const IndexPage = ({ data }) => {
                         <li className="tagblock-item">VueJS</li>
                         <li className="tagblock-item">Sass</li>
                     </ul>
-                    <Link to="/static/resume" className="button">My Resume</Link>
+                    <ButtonLink url="/static/resume" caption="My Resume" />
                 </div>
             </section>
             <section className="tier tier-centered tier-lightbackground tier-max900">
                 <div className="vlist vlist-small vlist-centeritems">
                     <h2 className="heading heading-2 heading-decorated">About Me</h2>
                     <p className="txt">I am also a human being! &nbsp;Learn more about me here!</p>
-                    <Link to="/static/about" className="button">About Me</Link>
+                    <ButtonLink url="/static/about" caption="About Me" />
                 </div>
             </section>
         </Layout>
