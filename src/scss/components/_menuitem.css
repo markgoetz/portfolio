@@ -21,8 +21,7 @@
 .menulink {
     display: block;
     padding: 10px 10px 10px 44px;
-    color: var(--color-lightgrey);
-    background-color: var(--color-darkgrey);
+    color: var(--color-white);
     transition: background-color .15s;
 }
 
@@ -38,10 +37,6 @@
         padding: 10px;
         line-height: inherit;
     }
-}
-
-.menulink:hover {
-    background-color: var(--color-bright);
 }
 
 .menulink-icon {

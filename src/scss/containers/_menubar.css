@@ -1,7 +1,8 @@
 .menubar {
     display: flex;
     flex-direction: row;
-    background-color: var(--color-darkgrey);
+    background-color: var(--color-primary-59);
+    background-image: linear-gradient(to bottom, var(--color-primary-76) 0%, var(--color-primary-59) 100%);
     padding: 10px;
 }
 
@@ -39,7 +40,7 @@
         flex-direction: row;
         justify-content: space-between;
         width: auto;
-        align-items: flex-end;
+        align-items: center;
     }
 }
 

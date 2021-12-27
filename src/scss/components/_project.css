@@ -1,8 +1,7 @@
 .project {
     width: 100%;
     max-width: 1200px;
-    margin: 0px auto;
-    position: relative;
+    /* margin: 0px auto; */
 }
 
 .project-image {
@@ -10,17 +9,7 @@
 }
 
 .project-namecontainer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--color-transparentblack);
-    text-align: center;
+    background-color: var(--color-secondary-72);
+    text-align: left;
     padding: 10px;
-    transition: padding-bottom .15s;
 }
-
-.project-hover:hover > .project-namecontainer {
-    padding-bottom: 30px;
-}
-

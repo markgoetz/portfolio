@@ -20,7 +20,6 @@ const Header = ({ siteTitle, links }) => {
                             <div className="flag-image">
                                 <img src={LogoUrl} alt="A heart made of squares" width="61" height="61" />
                             </div>
-                            <div className="flag-text txt-pagetitle">{siteTitle}</div>
                         </div>
                     </Link>
                 </div>

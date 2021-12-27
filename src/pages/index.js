@@ -8,15 +8,14 @@ import ButtonLink from '../components/ButtonLink';
 
 const ProjectItem = ({ frontmatter, imageUrl }) => (
     <Link to={`/projects/${frontmatter.slug}`}>
-        <div className="project project-hover">
-            <div className="project-namecontainer">
-                <h3 className="heading heading-3 heading-white">{frontmatter.title}</h3>
-            </div>
+        <div className="project">
             <img
                 src={imageUrl}
                 className="project-image"
                 alt={`${frontmatter.title} screenshot`}
-            />
+            /><div className="project-namecontainer">
+                <h3 className="heading heading-3 heading-white">{frontmatter.title}</h3>
+            </div>
         </div>
     </Link>
 );
