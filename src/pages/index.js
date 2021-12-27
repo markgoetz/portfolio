@@ -50,8 +50,8 @@ const IndexPage = ({ data }) => {
             </section>
 
             <section className="tier tier-centered tier-lightbackground">
-                <div className="vlist vlist-small vlist-centeritems">
-                    <h2 className="heading heading-2">Projects</h2>
+                <div className="vlist vlist-small">
+                    <h2 className="heading heading-2">My Projects</h2>
                     <p className="txt">I've made a number of awesome web experiences, both professionally and personally.</p>
                     <ul className="grid grid-small grid-2colresponsive">
                         { edges.map(edge => {
@@ -64,22 +64,27 @@ const IndexPage = ({ data }) => {
                             );
                         })}
                     </ul>
-                    <ButtonLink url="/projects" caption="All Projects" />
+                    <div className="mix-centered">
+                        <ButtonLink url="/projects" caption="All Projects" />
+                    </div>
                 </div>
             </section>
             <section className="tier tier-centered tier-darkbackground">
-                <div className="vlist vlist-small vlist-centeritems">
+                <div className="vlist vlist-small">
                     <h2 className="heading heading-2">My Skillset</h2>
                     <p className="txt">Have a look at my skills and experience, and what I can offer for you.</p>
                     <ul className="grid grid-large grid-3col">
-                        <li className="tagblock-item">JavaScript</li>
+                        <li className="tagblock-item">JavaScript (ES6)</li>
+                        <li className="tagblock-item">TypeScript</li>
                         <li className="tagblock-item">React</li>
                         <li className="tagblock-item">HTML 5</li>
                         <li className="tagblock-item">CSS3</li>
                         <li className="tagblock-item">VueJS</li>
                         <li className="tagblock-item">Sass</li>
                     </ul>
-                    <ButtonLink url="/static/resume" caption="My Resume" />
+                    <div className="mix-centered">
+                        <ButtonLink url="/static/resume" caption="My Resume" />
+                    </div>
                 </div>
             </section>
             <section className="tier tier-centered tier-lightbackground">

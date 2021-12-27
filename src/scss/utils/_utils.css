@@ -8,6 +8,10 @@
     overflow: hidden;
 }
 
+.mix-centered {
+    margin: 0 auto;
+}
+
 @media (min-width: 700px) {
     .mix-hideondesktop {
         display: none !important;

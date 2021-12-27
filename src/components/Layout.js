@@ -24,12 +24,12 @@ const Layout = ({ children }) => {
         <div id="container">
             <Header siteTitle={data.site.siteMetadata.title} links={data.site.siteMetadata.links} />
             <main className="container">{children}</main>
-            <footer className="tier tier-centered tier-darkbackground tier-nomargin">
-                <div className="vlist vlist-small vlist-centeritems">
+            <footer className="menubar">
+                <div className="mix-centered">
                     <p className="txt txt-white">
                         Copyright {new Date().getFullYear()} Mark Goetz. All rights reserved
                         &nbsp;•&nbsp;
-                        Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+                        Built with <a className="txt txt-white" href="https://www.gatsbyjs.org">Gatsby</a>
                     </p>
                 </div>
             </footer>

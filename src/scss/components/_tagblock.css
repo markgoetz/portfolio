@@ -1,7 +1,6 @@
 .tagblock-item {
     font-family: var(--font-body);
     font-size: 1.6rem;
-    font-weight: bold;
     color: var(--color-darkgrey);
 }
 
