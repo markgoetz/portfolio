@@ -9,7 +9,7 @@ import SEO from "../components/SEO";
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <section className="tier tier-centered tier-max900">
+    <section className="tier tier-centered">
       <div className="heartlogo">
         {/* <Hero /> */}
       </div>

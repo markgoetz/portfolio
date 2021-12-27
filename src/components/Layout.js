@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
             <footer className="tier tier-centered tier-darkbackground tier-nomargin">
                 <div className="vlist vlist-small vlist-centeritems">
                     <p className="txt txt-white">
-                        Copyright {new Date().getFullYear()} Markandrewgoetz.com. All rights reserved
+                        Copyright {new Date().getFullYear()} Mark Goetz. All rights reserved
                         &nbsp;•&nbsp;
                         Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
                     </p>

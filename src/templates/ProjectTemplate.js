@@ -11,15 +11,15 @@ const ProjectTemplate = ({ data }) => {
         <Layout>
             <SEO title={frontmatter.title} />
             <div className="project">
-                <div className="project-namecontainer">
-                    <h1 className="heading heading-1 heading-white">{frontmatter.title}</h1>
-                </div>
-                <div>
+                <div className="project-imagecontainer">
                     <img
                         src={file.publicURL}
                         className="project-image"
                         alt={`${frontmatter.title} screenshot`}
                     />
+                </div>
+                <div className="project-namecontainer">
+                    <h1 className="heading heading-1 heading-white">{frontmatter.title}</h1>
                 </div>
             </div>
 
