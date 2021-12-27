@@ -51,7 +51,7 @@ const IndexPage = ({ data }) => {
 
             <section className="tier tier-centered tier-lightbackground">
                 <div className="vlist vlist-small vlist-centeritems">
-                    <h2 className="heading heading-2 heading-decorated">Projects</h2>
+                    <h2 className="heading heading-2">Projects</h2>
                     <p className="txt">I've made a number of awesome web experiences, both professionally and personally.</p>
                     <ul className="grid grid-small grid-2colresponsive">
                         { edges.map(edge => {
@@ -69,7 +69,7 @@ const IndexPage = ({ data }) => {
             </section>
             <section className="tier tier-centered tier-darkbackground">
                 <div className="vlist vlist-small vlist-centeritems">
-                    <h2 className="heading heading-2 heading-decorated">My Skillset</h2>
+                    <h2 className="heading heading-2">My Skillset</h2>
                     <p className="txt">Have a look at my skills and experience, and what I can offer for you.</p>
                     <ul className="grid grid-large grid-3col">
                         <li className="tagblock-item">JavaScript</li>
@@ -84,7 +84,7 @@ const IndexPage = ({ data }) => {
             </section>
             <section className="tier tier-centered tier-lightbackground">
                 <div className="vlist vlist-small vlist-centeritems">
-                    <h2 className="heading heading-2 heading-decorated">About Me</h2>
+                    <h2 className="heading heading-2">About Me</h2>
                     <p className="txt">I am also a human being! &nbsp;Learn more about me here!</p>
                     <ButtonLink url="/static/about" caption="About Me" />
                 </div>

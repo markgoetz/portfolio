@@ -28,14 +28,14 @@ const ProjectTemplate = ({ data }) => {
 
                 <aside className="sidebar">
                     <div className="vlist vlist-xsmall">
-                        <h2 className="heading heading-2 heading-decorated">What I did</h2>
+                        <h2 className="heading heading-2">What I did</h2>
                         <ul className="linklist">
                             {frontmatter.skills.map(skill => <li className="linklist-item" key={skill}>{skill}</li>)}
                         </ul>
                     </div>
 
                     <div className="vlist vlist-xsmall">
-                        <h2 className="heading heading-2 heading-decorated">Links</h2>
+                        <h2 className="heading heading-2">Links</h2>
                         <ul className="linklist">
                             {frontmatter.links.map(link => (
                                 <li key={link.url} className="linklist-item"><a href={link.url}>{link.title}</a></li>

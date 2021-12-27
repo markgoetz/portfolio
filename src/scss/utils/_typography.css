@@ -60,42 +60,6 @@
     color: var(--color-white);
 }
 
-.heading-decorated::before, .heading-decorated::after {
-    background-image: url('../../assets/images/svg/dots.svg');
-    background-size: 15px 15px;
-    height: 15px;
-    width: 15px;
-    background-repeat: no-repeat;
-    content: ' ';
-    display: inline-block;
-}
-
-.heading-decorated::before {
-    margin-right: 15px;
-}
-
-.heading-decorated::after {
-    margin-left: 15px;
-}
-
-@media (min-width: 950px) {
-    .heading-decorated::before, .heading-decorated::after {
-        background-size: 20px 20px;
-        height: 20px;
-        width: 20px;
-    }    
-
-    .heading-decorated::before {
-        margin-right: 20px;
-    }
-
-    .heading-decorated::after {
-        margin-left: 20px;
-    }
-}
-
-
-
 @media (min-width: 950px) {
     .heading-1 {
         font-size: 3.6rem;
