@@ -5,12 +5,6 @@
 
 .tier-lightbackground {
     background-color: var(--color-lightgrey);
-    transition: box-shadow .1s;
-    box-shadow: inset 0px 0px var(--color-bright), inset 0px 0px var(--color-deep);
-}
-
-.tier-lightbackground:hover {
-    box-shadow: inset 5px 0px var(--color-bright), inset -5px 0px var(--color-deep);
 }
 
 .tier-darkbackground {
