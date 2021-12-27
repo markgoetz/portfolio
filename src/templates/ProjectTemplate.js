@@ -14,11 +14,13 @@ const ProjectTemplate = ({ data }) => {
                 <div className="project-namecontainer">
                     <h1 className="heading heading-1 heading-white">{frontmatter.title}</h1>
                 </div>
-                <img
-                    src={file.publicURL}
-                    className="project-image"
-                    alt={`${frontmatter.title} screenshot`}
-                />
+                <div>
+                    <img
+                        src={file.publicURL}
+                        className="project-image"
+                        alt={`${frontmatter.title} screenshot`}
+                    />
+                </div>
             </div>
 
             <div className="twocolumnlayout">

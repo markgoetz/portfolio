@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
     return (
         <div id="container">
             <Header siteTitle={data.site.siteMetadata.title} links={data.site.siteMetadata.links} />
-            <main>{children}</main>
+            <main className="container">{children}</main>
             <footer className="tier tier-centered tier-darkbackground tier-nomargin">
                 <div className="vlist vlist-small vlist-centeritems">
                     <p className="txt txt-white">

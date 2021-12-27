@@ -9,11 +9,16 @@ import ButtonLink from '../components/ButtonLink';
 const ProjectItem = ({ frontmatter, imageUrl }) => (
     <Link to={`/projects/${frontmatter.slug}`}>
         <div className="project">
-            <img
-                src={imageUrl}
-                className="project-image"
-                alt={`${frontmatter.title} screenshot`}
-            /><div className="project-namecontainer">
+            <div className="project-imagecontainer">
+                <img
+                    src={imageUrl}
+                    className="project-image"
+                    alt={`${frontmatter.title} screenshot`}
+                    border="0"
+                    width={600}
+                />
+            </div>
+            <div className="project-namecontainer">
                 <h3 className="heading heading-3 heading-white">{frontmatter.title}</h3>
             </div>
         </div>

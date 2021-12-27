@@ -5,9 +5,9 @@ import React from 'react';
 const ButtonLink = ({ caption, url }) => {
     return (
         <Link to={url} className="button">
-            <span class="button-outer-top"></span>
-            <span class="button-outer-bottom"></span>
-            <span class="button-inner">{caption}</span>
+            <span className="button-outer-top"></span>
+            <span className="button-outer-bottom"></span>
+            <span className="button-inner">{caption}</span>
         </Link>
     );
 };

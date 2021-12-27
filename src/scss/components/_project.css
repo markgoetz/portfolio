@@ -4,6 +4,10 @@
     /* margin: 0px auto; */
 }
 
+.project-imagecontainer {
+    display: flex;
+}
+
 .project-image {
     width: 100%;
 }
