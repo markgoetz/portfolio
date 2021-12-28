@@ -21,9 +21,9 @@ const Layout = ({ children }) => {
     `);
 
     return (
-        <div id="container">
+        <div className="sitecontainer">
             <Header siteTitle={data.site.siteMetadata.title} links={data.site.siteMetadata.links} />
-            <main className="container">{children}</main>
+            <main className="content">{children}</main>
             <footer className="menubar">
                 <div className="mix-centered">
                     <p className="txt txt-white">
