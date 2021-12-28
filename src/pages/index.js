@@ -31,7 +31,7 @@ const IndexPage = ({ data }) => {
     return (
         <Layout>
             <SEO title="Home" />
-            <section className="tier tier-centered">
+            <section className="tier tier-centered tier-lightbackground">
                 <div className="vlist vlist-large vlist-centeritems">
                     <div className="heartlogo">
                         {/* <Hero /> */}
@@ -45,6 +45,24 @@ const IndexPage = ({ data }) => {
                             As a UX designer for 7 years and a developer for over 20, I combine deep technical knowledge with good design sense to make delightful web experiences.
                             I specialize in JavaScript, animations, and microinteractions.
                         </p>
+                    </div>
+                </div>
+            </section>
+
+            <section className="tier tier-centered tier-darkbackground">
+                <div className="vlist vlist-small">
+                    <h2 className="heading heading-2">My Skillset</h2>
+                    <p className="txt">Have a look at my skills and experience, and what I can offer for you.</p>
+                    <ul className="grid grid-large grid-3col">
+                        <li className="tagblock-item">JavaScript (ES6)</li>
+                        <li className="tagblock-item">TypeScript</li>
+                        <li className="tagblock-item">React</li>
+                        <li className="tagblock-item">HTML 5</li>
+                        <li className="tagblock-item">CSS3 / Sass</li>
+                        <li className="tagblock-item">VueJS</li>
+                    </ul>
+                    <div className="mix-centered">
+                        <ButtonLink url="/static/resume" caption="My Resume" />
                     </div>
                 </div>
             </section>
@@ -69,24 +87,8 @@ const IndexPage = ({ data }) => {
                     </div>
                 </div>
             </section>
+
             <section className="tier tier-centered tier-darkbackground">
-                <div className="vlist vlist-small">
-                    <h2 className="heading heading-2">My Skillset</h2>
-                    <p className="txt">Have a look at my skills and experience, and what I can offer for you.</p>
-                    <ul className="grid grid-large grid-3col">
-                        <li className="tagblock-item">JavaScript (ES6)</li>
-                        <li className="tagblock-item">TypeScript</li>
-                        <li className="tagblock-item">React</li>
-                        <li className="tagblock-item">HTML 5</li>
-                        <li className="tagblock-item">CSS3 / Sass</li>
-                        <li className="tagblock-item">VueJS</li>
-                    </ul>
-                    <div className="mix-centered">
-                        <ButtonLink url="/static/resume" caption="My Resume" />
-                    </div>
-                </div>
-            </section>
-            <section className="tier tier-centered tier-lightbackground">
                 <div className="vlist vlist-small vlist-centeritems">
                     <h2 className="heading heading-2">About Me</h2>
                     <p className="txt">I am also a human being! &nbsp;Learn more about me here!</p>

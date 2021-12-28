@@ -15,6 +15,7 @@
 @import "containers/_spacer.css";
 @import "containers/_tier.css";
 
+@import "components/_background.css";
 @import "components/_button.css";
 @import "components/_flag.css";
 @import "components/_heartlogo.css";
