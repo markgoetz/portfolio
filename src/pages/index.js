@@ -78,9 +78,8 @@ const IndexPage = ({ data }) => {
                         <li className="tagblock-item">TypeScript</li>
                         <li className="tagblock-item">React</li>
                         <li className="tagblock-item">HTML 5</li>
-                        <li className="tagblock-item">CSS3</li>
+                        <li className="tagblock-item">CSS3 / Sass</li>
                         <li className="tagblock-item">VueJS</li>
-                        <li className="tagblock-item">Sass</li>
                     </ul>
                     <div className="mix-centered">
                         <ButtonLink url="/static/resume" caption="My Resume" />
