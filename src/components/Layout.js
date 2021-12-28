@@ -23,8 +23,8 @@ const Layout = ({ children }) => {
     return (
         <div className="sitecontainer">
             <Header siteTitle={data.site.siteMetadata.title} links={data.site.siteMetadata.links} />
-            <main className="content">
-                <div className="background">
+            <main className="main">
+                <div className="content">
                     {children}
                 </div>
             </main>

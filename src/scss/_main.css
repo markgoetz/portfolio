@@ -9,13 +9,13 @@
 @import "containers/_grid.css";
 @import "containers/_header.css";
 @import "containers/_list.css";
+@import "containers/_main.css";
 @import "containers/_menubar.css";
 @import "containers/_sidebar.css";
 @import "containers/_sitecontainer.css";
 @import "containers/_spacer.css";
 @import "containers/_tier.css";
 
-@import "components/_background.css";
 @import "components/_button.css";
 @import "components/_flag.css";
 @import "components/_heartlogo.css";
