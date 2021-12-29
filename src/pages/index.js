@@ -32,18 +32,28 @@ const IndexPage = ({ data }) => {
         <Layout>
             <SEO title="Home" />
             <section className="tier tier-centered tier-lightbackground">
-                <div className="vlist vlist-large vlist-centeritems">
-                    <div className="heartlogo">
+                <div className="grid grid-2colresponsive">
+                    <div className="mix-centered">
                         <Hero />
                     </div>
                     <div className="container">
                         <h1 className="heading heading-1">
-                            I'm Mark Goetz, a web developer and designer in Chicago.
+                            Hello!
                         </h1>
                         <div className="spacer" />
                         <p className="txt">
-                            As a UX designer for 7 years and a developer for over 20, I combine deep technical knowledge with good design sense to make delightful web experiences.
-                            I specialize in JavaScript, animations, and microinteractions.
+                            I'm Mark Goetz, a front-end developer in Chicago.  I've been making web interfaces for 15 years.
+                        </p>
+
+                        <div className="spacer" />
+                        <div className="spacer" />
+
+                        <h1 className="heading heading-1">
+                            Designy outside, mathy inside
+                        </h1>
+                        <div className="spacer" />
+                        <p className="txt">
+                            I combine technical knowledge with design sense and empathy to make excellent web experiences.
                         </p>
                     </div>
                 </div>

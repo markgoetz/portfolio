@@ -1,5 +1,4 @@
 .grid {
-    display: flex;
     flex-wrap: wrap;
     display: grid;
 }
@@ -18,13 +17,8 @@
     }
 }
 
-
 .grid-3col {
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-.grid-3col > * {
-    flex-basis: 33%;
 }
 
 .grid-2colresponsive {
@@ -35,10 +29,4 @@
     .grid-2colresponsive {
         grid-template-columns: 1fr 1fr;
     }
-
-
-    .grid-2colresponsive > * {
-        flex-basis: 50%;
-    }
 }
-
