@@ -13,14 +13,14 @@
 
 .usercontent h1 {
     font-family: var(--font-heading);
-    color: var(--color-dark);
+    color: var(--color-primary-70);
     font-size: 3rem;
     font-weight: 600;
 }
 
 .usercontent h2 {
     font-family: var(--font-heading);
-    color: var(--color-dark);
+    color: var(--color-primary-70);
     font-size: 2.4rem;
     font-weight: 800;
     margin: .75em 0;
@@ -28,7 +28,7 @@
 
 .usercontent h3 {
     font-family: var(--font-heading);
-    color: var(--color-dark);
+    color: var(--color-secondary-72);
     font-size: 2.1rem;
     font-weight: 600;
     margin: .75em 0;
