@@ -63,19 +63,23 @@ const IndexPage = ({ data }) => {
             </section>
 
             <section className="tier tier-centered tier-darkbackground">
-                <div className="vlist vlist-small">
-                    <h2 className="heading heading-2 heading-secondary">My Skillset</h2>
-                    <p className="txt">Have a look at my skills and experience, and what I can offer for you.</p>
-                    <ul className="grid grid-large grid-3col">
-                        <li className="tagblock-item">JavaScript (ES6)</li>
-                        <li className="tagblock-item">TypeScript</li>
-                        <li className="tagblock-item">React</li>
-                        <li className="tagblock-item">HTML 5</li>
-                        <li className="tagblock-item">CSS3 / Sass</li>
-                        <li className="tagblock-item">VueJS</li>
-                    </ul>
-                    <div className="mix-centered">
-                        <ButtonLink url="/static/resume" caption="My Resume" />
+                <h2 className="heading heading-2 heading-secondary">My Skillset</h2>
+                <div className="grid grid-2colresponsive">
+                    <div className="vlist vlist-small">
+                        <p className="txt">Have a look at my skills and experience, and what I can offer for you.</p>
+                        <div className="mix-centered">
+                            <ButtonLink url="/static/resume" caption="My Resume" />
+                        </div>
+                    </div>
+                    <div>
+                        <ul className="bulletlist">
+                            <li className="txt">JavaScript (ES6)</li>
+                            <li className="txt">TypeScript</li>
+                            <li className="txt">React</li>
+                            <li className="txt">HTML 5</li>
+                            <li className="txt">CSS3 / Sass</li>
+                            <li className="txt">VueJS</li>
+                        </ul>
                     </div>
                 </div>
             </section>
