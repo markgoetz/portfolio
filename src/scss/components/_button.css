@@ -7,7 +7,7 @@
 
 .button-inner {
     font-family: var(--font-heading);
-    font-size: 30px;
+    font-size: 2.4rem;
     background-size: 200% 100%;
     background-image: linear-gradient(
         to right,
@@ -22,6 +22,12 @@
     margin: 6px;
     display: block;
     transition: background-position .5s;
+}
+
+@media (min-width: 700px) {
+    .button-inner {
+        font-size: 3rem;
+    }
 }
   
 @media (prefers-reduced-motion) {
