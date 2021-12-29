@@ -34,12 +34,15 @@ const IndexPage = ({ data }) => {
             <section className="tier tier-centered tier-lightbackground">
                 <div className="grid grid-2colresponsive">
                     <div className="mix-centered">
+                        <h1 className="heading heading-1">
+                            81 squares
+                        </h1>
                         <Hero />
                     </div>
                     <div className="container">
-                        <h1 className="heading heading-1">
+                        <h2 className="heading heading-2">
                             Hello!
-                        </h1>
+                        </h2>
                         <div className="spacer" />
                         <p className="txt">
                             I'm Mark Goetz, a front-end developer in Chicago.  I've been making web interfaces for 15 years.
@@ -48,9 +51,9 @@ const IndexPage = ({ data }) => {
                         <div className="spacer" />
                         <div className="spacer" />
 
-                        <h1 className="heading heading-1">
+                        <h2 className="heading heading-2">
                             Designy outside, mathy inside
-                        </h1>
+                        </h2>
                         <div className="spacer" />
                         <p className="txt">
                             I combine technical knowledge with design sense and empathy to make excellent web experiences.
