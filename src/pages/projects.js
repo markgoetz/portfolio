@@ -31,7 +31,7 @@ const ProjectsListPage = ({ data }) => {
         <Layout>
             <SEO title="Projects" />
             <div className="tier tier-lightbackground">
-                <h1 className="heading heading-1">Projects</h1>
+                <h1 className="heading heading-1 heading-primary">Projects</h1>
                 <div className="spacer" />
                 <ul className="vlist">
                     { edges.map(edge => {

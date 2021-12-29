@@ -19,7 +19,7 @@ const ProjectTemplate = ({ data }) => {
                     />
                 </div>
                 <div className="project-namecontainer">
-                    <h1 className="heading heading-1 heading-white">{frontmatter.title}</h1>
+                    <h1 className="heading heading-2 heading-white">{frontmatter.title}</h1>
                 </div>
             </div>
 
@@ -28,14 +28,14 @@ const ProjectTemplate = ({ data }) => {
 
                 <aside className="sidebar">
                     <div className="vlist vlist-xsmall">
-                        <h2 className="heading heading-2">What I did</h2>
+                        <h2 className="heading heading-2 heading-primary">What I did</h2>
                         <ul className="linklist">
                             {frontmatter.skills.map(skill => <li className="linklist-item" key={skill}>{skill}</li>)}
                         </ul>
                     </div>
 
                     <div className="vlist vlist-xsmall">
-                        <h2 className="heading heading-2">Links</h2>
+                        <h2 className="heading heading-2 heading-primary">Links</h2>
                         <ul className="linklist">
                             {frontmatter.links.map(link => (
                                 <li key={link.url} className="linklist-item"><a href={link.url}>{link.title}</a></li>

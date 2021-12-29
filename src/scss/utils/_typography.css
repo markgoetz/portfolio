@@ -44,6 +44,7 @@
 .heading-1 {
     font-size: 6.3rem;
     font-weight: 800;
+    letter-spacing: -.2rem;
 }
 
 .heading-2 {
@@ -54,6 +55,14 @@
 .heading-3 {
     font-size: 2.1rem;
     font-weight: 600;
+}
+
+.heading-primary {
+    color: var(--color-primary-70);
+}
+
+.heading-secondary {
+    color: var(--color-secondary-72);
 }
 
 .heading-white {

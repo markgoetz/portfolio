@@ -34,13 +34,13 @@ const IndexPage = ({ data }) => {
             <section className="tier tier-centered tier-lightbackground">
                 <div className="grid grid-2colresponsive">
                     <div className="mix-centered">
-                        <h1 className="heading heading-1">
+                        <h1 className="heading heading-1 heading-primary">
                             81 squares
                         </h1>
                         <Hero />
                     </div>
                     <div className="container">
-                        <h2 className="heading heading-2">
+                        <h2 className="heading heading-2 heading-primary">
                             Hello!
                         </h2>
                         <div className="spacer" />
@@ -51,7 +51,7 @@ const IndexPage = ({ data }) => {
                         <div className="spacer" />
                         <div className="spacer" />
 
-                        <h2 className="heading heading-2">
+                        <h2 className="heading heading-2 heading-primary">
                             Designy outside, mathy inside
                         </h2>
                         <div className="spacer" />
@@ -64,7 +64,7 @@ const IndexPage = ({ data }) => {
 
             <section className="tier tier-centered tier-darkbackground">
                 <div className="vlist vlist-small">
-                    <h2 className="heading heading-2">My Skillset</h2>
+                    <h2 className="heading heading-2 heading-secondary">My Skillset</h2>
                     <p className="txt">Have a look at my skills and experience, and what I can offer for you.</p>
                     <ul className="grid grid-large grid-3col">
                         <li className="tagblock-item">JavaScript (ES6)</li>
@@ -82,7 +82,7 @@ const IndexPage = ({ data }) => {
 
             <section className="tier tier-centered tier-lightbackground">
                 <div className="vlist vlist-small">
-                    <h2 className="heading heading-2">My Projects</h2>
+                    <h2 className="heading heading-2 heading-secondary">My Projects</h2>
                     <p className="txt">I've made a number of awesome web experiences, both professionally and personally.</p>
                     <ul className="grid grid-small grid-2colresponsive">
                         { edges.map(edge => {
@@ -101,11 +101,13 @@ const IndexPage = ({ data }) => {
                 </div>
             </section>
 
-            <section className="tier tier-centered tier-darkbackground">
-                <div className="vlist vlist-small vlist-centeritems">
-                    <h2 className="heading heading-2">About Me</h2>
+            <section className="tier tier-darkbackground">
+                <div className="vlist vlist-small">
+                    <h2 className="heading heading-2 heading-secondary">About Me</h2>
                     <p className="txt">I am also a human being! &nbsp;Learn more about me here!</p>
-                    <ButtonLink url="/static/about" caption="About Me" />
+                    <div className="mix-centered">
+                        <ButtonLink url="/static/about" caption="About Me" />
+                    </div>
                 </div>
             </section>
         </Layout>
