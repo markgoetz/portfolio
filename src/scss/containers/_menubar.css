@@ -21,18 +21,17 @@
 .menubutton {
     font-size: 1.8rem;
     min-height: 44px;
-    background-color: var(--color-bright);
-    color: var(--color-lightgrey);
+    color: var(--color-white);
     border: none;
-    font-family: 'Exo 2', sans-serif;
+    font-family: var(--font-heading);
     font-weight: 600;
     cursor: pointer;
     transition: background-color .25s;
-
+    background-color: transparent;
 }
 
 .menubutton:hover, .menubutton:focus {
-    background-color: var(--color-deep);
+    background-color: var(--color-secondary-72);
 }
 
 @media (min-width: 700px) {

@@ -63,9 +63,9 @@ const IndexPage = ({ data }) => {
             </section>
 
             <section className="tier tier-centered tier-darkbackground">
-                <h2 className="heading heading-2 heading-secondary">My Skillset</h2>
                 <div className="grid grid-2colresponsive">
                     <div className="vlist vlist-small">
+                        <h2 className="heading heading-2 heading-secondary">My Skillset</h2>
                         <p className="txt">Have a look at my skills and experience, and what I can offer for you.</p>
                         <div className="mix-centered">
                             <ButtonLink url="/static/resume" caption="My Resume" />
