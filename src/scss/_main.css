@@ -25,3 +25,5 @@
 @import "components/_project.css";
 @import "components/_usercontent.css";
 @import "layouts/_twocolumnlayout.css";
+
+@import "animations/_transition.css";

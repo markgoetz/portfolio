@@ -4,7 +4,7 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import ButtonLink from '../components/ButtonLink';
-// import Hero from '../assets/images/svg/inline/heart-logo.inline.svg';
+import Hero from '../assets/images/svg/inline/heart-logo.inline.svg';
 
 const ProjectItem = ({ frontmatter, imageUrl }) => (
     <Link to={`/projects/${frontmatter.slug}`}>
@@ -34,7 +34,7 @@ const IndexPage = ({ data }) => {
             <section className="tier tier-centered tier-lightbackground">
                 <div className="vlist vlist-large vlist-centeritems">
                     <div className="heartlogo">
-                        {/* <Hero /> */}
+                        <Hero />
                     </div>
                     <div className="container">
                         <h1 className="heading heading-1">
