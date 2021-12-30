@@ -20,7 +20,7 @@ To make use of my extensive programming background and my prior experience as a 
 - Sass
 
 ## Work Experience
-### Senior Software Engineer + Senior Mentor
+### Principal Software Engineer
 
 #### Nerdery, 11/2016 – Present
 
@@ -29,7 +29,7 @@ To make use of my extensive programming background and my prior experience as a 
 - Consult with product owners and designers to assess technical feasibility of ideas, and advise on alternatives as needed
 - Led development of internal office project with React, Redux, TypeScript, and Sass; coordinated efforts of a front-end and back-end developer, resulting in a dashboard that is used on a daily basis throughout the office
 - Give internal presentations about JavaScript technologies and techniques to larger front-end team
-- Guide associate-level engineers on technical concerns and career development
+- Guide associate- and staff-level engineers on technical concerns and career development
 
 
 ### User Experience Architect
