@@ -1,7 +1,7 @@
 .txt {
     font-family:  var(--font-body);
     font-size: 1.6rem;
-    color: var(--color-darkgrey);
+    color: var(--color-gray-30);
     line-height: 1.5;
 }
 
@@ -38,7 +38,6 @@
 
 .heading {
     font-family: var(--font-heading);
-    color: var(--color-dark);
 }
 
 .heading-1 {
