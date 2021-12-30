@@ -7,7 +7,7 @@
     background-color: var(--color-secondary-95);
 }
 
-.link.link-white {
+.link-white, .link-white:visited {
     color: var(--color-white);
 }
 
