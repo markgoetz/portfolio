@@ -40,7 +40,9 @@ const ProjectTemplate = ({ data }) => {
                         <h2 className="heading heading-2 heading-secondary">Links</h2>
                         <ul className="bulletlist">
                             {frontmatter.links.map(link => (
-                                <li key={link.url} className="txt"><a href={link.url}>{link.title}</a></li>
+                                <li key={link.url} className="txt">
+                                    <a className="link" href={link.url}>{link.title}</a>
+                                </li>
                             ))}
                         </ul>
                     </div>

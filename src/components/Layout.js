@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
                     <p className="txt txt-white">
                         Copyright {new Date().getFullYear()} Mark Goetz. All rights reserved
                         &nbsp;•&nbsp;
-                        Built with <a className="txt txt-white" href="https://www.gatsbyjs.org">Gatsby</a>
+                        Built with <a className="link link-white" href="https://www.gatsbyjs.org">Gatsby</a>
                     </p>
                 </div>
             </footer>

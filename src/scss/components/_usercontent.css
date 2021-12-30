@@ -66,3 +66,12 @@
         font-size: 3rem;
     }
 }
+
+.usercontent a, .usercontent a:visited {
+    color: var(--color-secondary-72);
+    text-decoration: underline;
+}
+
+.usercontent a:hover, .usercontent a:active {
+    background-color: var(--color-secondary-95);
+}
