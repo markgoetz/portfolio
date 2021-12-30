@@ -1,31 +1,19 @@
 .tier {
-    margin: 10px;
     padding: 20px;
 }
 
 .tier-lightbackground {
-    background-color: var(--color-lightgrey);
-    transition: box-shadow .1s;
-    box-shadow: inset 0px 0px var(--color-bright), inset 0px 0px var(--color-deep);
-}
-
-.tier-lightbackground:hover {
-    box-shadow: inset 5px 0px var(--color-bright), inset -5px 0px var(--color-deep);
+    background-color: var(--color-secondary-100);
 }
 
 .tier-darkbackground {
-    background-color: var(--color-darkgrey);
-    color: white;
+    background-color: var(--color-secondary-96);
 }
 
 @media (min-width: 950px) {
     .tier {
-        margin: 30px auto;
+        margin: 0 auto;
         padding: 30px;
-    }
-
-    .tier-max900 {
-        max-width: 900px;
     }
 }
 

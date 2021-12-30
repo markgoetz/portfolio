@@ -7,29 +7,33 @@ import Header from "./Header"
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-          links {
-            className
-            serviceName
-            url
-          }
+        site {
+            siteMetadata {
+                title
+                    links {
+                        className
+                        serviceName
+                        url
+                    }
+                }
+            }
         }
-      }
-    }
-  `)
+    `);
 
     return (
-        <div id="container">
+        <div className="sitecontainer">
             <Header siteTitle={data.site.siteMetadata.title} links={data.site.siteMetadata.links} />
-            <main>{children}</main>
-            <footer className="tier tier-centered tier-darkbackground tier-nomargin">
-                <div className="vlist vlist-small vlist-centeritems">
+            <main className="main">
+                <div className="content">
+                    {children}
+                </div>
+            </main>
+            <footer className="menubar">
+                <div className="mix-centered">
                     <p className="txt txt-white">
-                        Copyright {new Date().getFullYear()} Markandrewgoetz.com. All rights reserved
+                        Copyright {new Date().getFullYear()} Mark Goetz. All rights reserved
                         &nbsp;•&nbsp;
-                        Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+                        Built with <a className="link link-white" href="https://www.gatsbyjs.org">Gatsby</a>
                     </p>
                 </div>
             </footer>

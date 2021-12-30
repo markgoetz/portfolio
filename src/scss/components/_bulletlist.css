@@ -1,0 +1,9 @@
+.bulletlist > *::before {
+    background-image: url('../../assets/images/svg/empty-square.svg');
+    background-size: 15px 15px;
+    height: 15px;
+    width: 24px;
+    background-repeat: no-repeat;
+    content: ' ';
+    display: inline-block;
+}

@@ -3,15 +3,15 @@ import { Link } from "gatsby"
 
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
-import Hero from '../assets/images/svg/inline/heart-logo-broken.inline.svg';
+// import Hero from '../assets/images/svg/inline/heart-logo-broken.inline.svg';
 
 
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <section className="tier tier-centered tier-max900">
+    <section className="tier tier-centered">
       <div className="heartlogo">
-        <Hero />
+        {/* <Hero /> */}
       </div>
       <div className="container">
         <h1 className="heading heading-1">Oh no.</h1>

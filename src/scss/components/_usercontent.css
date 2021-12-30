@@ -1,7 +1,7 @@
 .usercontent {
     font-family:  var(--font-body);
     font-size: 1.6rem;
-    color: var(--color-darkgrey);
+    color: var(--color-gray-30);
     line-height: 1.5;
 }
 
@@ -13,14 +13,14 @@
 
 .usercontent h1 {
     font-family: var(--font-heading);
-    color: var(--color-dark);
+    color: var(--color-primary-70);
     font-size: 3rem;
     font-weight: 600;
 }
 
 .usercontent h2 {
     font-family: var(--font-heading);
-    color: var(--color-dark);
+    color: var(--color-primary-70);
     font-size: 2.4rem;
     font-weight: 800;
     margin: .75em 0;
@@ -28,7 +28,7 @@
 
 .usercontent h3 {
     font-family: var(--font-heading);
-    color: var(--color-dark);
+    color: var(--color-secondary-72);
     font-size: 2.1rem;
     font-weight: 600;
     margin: .75em 0;
@@ -44,7 +44,7 @@
 }
 
 .usercontent li::before {
-    background-image: url('../../assets/images/svg/dots.svg');
+    background-image: url('../../assets/images/svg/empty-square.svg');
     background-size: 15px 15px;
     height: 15px;
     width: 24px;
@@ -65,4 +65,13 @@
     .usercontent h2 {
         font-size: 3rem;
     }
+}
+
+.usercontent a, .usercontent a:visited {
+    color: var(--color-secondary-72);
+    text-decoration: underline;
+}
+
+.usercontent a:hover, .usercontent a:active {
+    background-color: var(--color-secondary-95);
 }

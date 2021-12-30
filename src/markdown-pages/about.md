@@ -1,6 +1,6 @@
 ---
 path: "/static/about"
-title: "About"
+title: "About Me"
 ---
 
 Hi, I’m Mark Goetz and I’m a front-end developer. I’ve been interested in technology for a long time, ever since my dad took me through the computer room at the hospital he worked at. I learned programming at an early age, and earned my Bachelor’s degree in Computer Science from Rensselaer Polytechnic Institute.

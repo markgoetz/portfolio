@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 
-import LogoUrl from '../assets/images/svg/heart logo small.svg';
+import LogoUrl from '../assets/images/svg/81-squares-header.svg';
 
 const Header = ({ siteTitle, links }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,9 +18,8 @@ const Header = ({ siteTitle, links }) => {
                     <Link to="/" className="link-homepage">
                         <div className="flag">
                             <div className="flag-image">
-                                <img src={LogoUrl} alt="Small logo of a heart made of gears" width="70" height="70" />
+                                <img src={LogoUrl} alt="A heart made of squares" width="61" height="61" />
                             </div>
-                            <div className="flag-text txt-pagetitle">{siteTitle}</div>
                         </div>
                     </Link>
                 </div>
@@ -32,7 +31,7 @@ const Header = ({ siteTitle, links }) => {
                         <div>
                             <ul className="submenu">
                                 <li className="menuitem"><Link className="menulink" to="/projects">Projects</Link></li>
-                                <li className="menuitem"><Link className="menulink" to="/static/about">About</Link></li>
+                                <li className="menuitem"><Link className="menulink" to="/static/about">About Me</Link></li>
                                 <li className="menuitem"><Link className="menulink" to="/static/resume">Resume</Link></li>
                             </ul>
                         </div>

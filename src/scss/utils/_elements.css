@@ -1,11 +1,12 @@
 html {
     font-size: 62.5%;
+    background-color: var(--color-gray-91);
+}
+
+*:focus {
+    outline: solid dotted var(--color-gray-30);
 }
 
 a {
-    color: var(--color-bright);
-}
-
-a:hover {
-    background-color: var(--color-lightprimary);
+    text-decoration: none;
 }

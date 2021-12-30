@@ -10,8 +10,8 @@ const Template = ({ data }) => {
     return (
         <Layout>
             <SEO title={frontmatter.title} />
-            <div className="tier tier-max900">
-                <h1 className="heading heading-1">{frontmatter.title}</h1>
+            <div className="tier tier-lightbackground">
+                <h1 className="heading heading-1 heading-primary">{frontmatter.title}</h1>
                 <div className="spacer" />
                 <main className="usercontent" dangerouslySetInnerHTML={{ __html: html }} />
             </div>

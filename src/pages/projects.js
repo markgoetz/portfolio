@@ -1,22 +1,24 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 
 const ProjectItem = ({ frontmatter, imageUrl }) => {
     return (
         <Link to={`/projects/${frontmatter.slug}`}>
-            <div className="project project-hover">
+            <div className="project">
+                <div className="project-imagecontainer">
+                    <img
+                        src={imageUrl}
+                        className="project-image"
+                        alt={`${frontmatter.title} screenshot`}
+                    />
+                </div>
                 <div className="project-namecontainer">
                     <h2 className="heading heading-2 heading-white">
                         {frontmatter.title}
                     </h2>
                 </div>
-                <img
-                    src={imageUrl}
-                    className="project-image"
-                    alt={`${frontmatter.title} screenshot`}
-                />
             </div>
         </Link>
     );
@@ -28,8 +30,8 @@ const ProjectsListPage = ({ data }) => {
     return (
         <Layout>
             <SEO title="Projects" />
-            <div className="tier tier-max900">
-                <h1 className="heading heading-1">Projects</h1>
+            <div className="tier tier-lightbackground">
+                <h1 className="heading heading-1 heading-primary">Projects</h1>
                 <div className="spacer" />
                 <ul className="vlist">
                     { edges.map(edge => {

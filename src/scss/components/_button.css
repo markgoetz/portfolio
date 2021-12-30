@@ -1,21 +1,63 @@
 .button {
-    background-color: var(--color-bright);
-    transition: background-color .25s;
-    font-family: var(--font-heading);
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
     text-decoration: none;
-    color: var(--color-white);
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 10px 30px;
 }
 
-.button:hover {
-    background-color: var(--color-deep);
+.button-inner {
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    background-size: 200% 100%;
+    background-image: linear-gradient(
+        to right,
+        var(--color-secondary-42) 0,
+        var(--color-secondary-42) 49.9%,
+        var(--color-secondary-61) 50.1%,
+        var(--color-secondary-61) 100%
+    );
+    background-position: 100%;
+    color: var(--color-secondary-98);
+    padding: 6px 24px;
+    margin: 6px;
+    display: block;
+    transition: background-position .5s;
 }
 
-@media (min-width: 950px) {
-    .button {
-        font-size: 2.4rem;
-        padding: 15px 40px;
+@media (min-width: 700px) {
+    .button-inner {
+        font-size: 3rem;
     }
+}
+  
+@media (prefers-reduced-motion) {
+    .button-inner {
+        transition: background-position 0s;
+    }
+}
+  
+:hover > .button-inner, :focus > .button-inner {
+    background-position: 0%;
+}
+  
+.button-outer-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: var(--color-secondary-95);
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 6px;
+    clip-path: polygon(0 0, calc(100% - 18px) 0, calc(100% - 24px) 6px, 6px 6px, 6px calc(100% - 24px), 0 calc(100% - 18px));
+}
+  
+.button-outer-bottom {
+    position: absolute;
+    bottom: 0px;
+    height: 100%;
+    right: 0px;
+    width: 100%;
+    background-color: var(--color-secondary-95);
+    border-bottom-right-radius: 6px;
+    clip-path: polygon(24px calc(100% - 6px), calc(100% - 6px) calc(100% - 6px), calc(100% - 6px) 24px, 100% 18px, 100% 100%, 18px 100%);
 }

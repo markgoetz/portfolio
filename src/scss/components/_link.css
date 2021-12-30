@@ -1,0 +1,16 @@
+.link, .link:visited {
+    color: var(--color-secondary-72);
+    text-decoration: underline;
+}
+
+.link:hover, .link:active {
+    background-color: var(--color-secondary-95);
+}
+
+.link-white, .link-white:visited {
+    color: var(--color-white);
+}
+
+.link-white:hover, .link-white:active {
+    background-color: var(--color-secondary-72);
+}
