@@ -32,7 +32,7 @@ const IndexPage = ({ data }) => {
         <Layout>
             <SEO title="Home" />
             <section className="tier tier-centered tier-lightbackground">
-                <div className="grid grid-2colresponsive">
+                <div className="grid grid-2colresponsive grid-small">
                     <div className="mix-centered">
                         <h1 className="heading heading-1 heading-primary">
                             81 squares
@@ -63,7 +63,7 @@ const IndexPage = ({ data }) => {
             </section>
 
             <section className="tier tier-centered tier-darkbackground">
-                <div className="grid grid-2colresponsive">
+                <div className="grid grid-2colresponsive grid-small">
                     <div className="vlist vlist-small">
                         <h2 className="heading heading-2 heading-secondary">My Skillset</h2>
                         <p className="txt">Have a look at my skills and experience, and what I can offer for you.</p>
