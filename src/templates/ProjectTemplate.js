@@ -24,7 +24,9 @@ const ProjectTemplate = ({ data }) => {
             </div>
 
             <div className="twocolumnlayout">
-                <main className="txt" dangerouslySetInnerHTML={{ __html: html }} />
+                <main className="txt">
+                    <div className="usercontent" dangerouslySetInnerHTML={{ __html: html }} />
+                </main>
 
                 <aside className="sidebar">
                     <div className="vlist vlist-xsmall">
