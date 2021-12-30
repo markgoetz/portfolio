@@ -31,7 +31,7 @@ const Header = ({ siteTitle, links }) => {
                         <div>
                             <ul className="submenu">
                                 <li className="menuitem"><Link className="menulink" to="/projects">Projects</Link></li>
-                                <li className="menuitem"><Link className="menulink" to="/static/about">About</Link></li>
+                                <li className="menuitem"><Link className="menulink" to="/static/about">About Me</Link></li>
                                 <li className="menuitem"><Link className="menulink" to="/static/resume">Resume</Link></li>
                             </ul>
                         </div>
