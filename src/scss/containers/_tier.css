@@ -17,6 +17,16 @@
     }
 }
 
-.tier-nomargin {
-    margin: 0;
+.tier-diagonalbackground {
+    background-image: url('../../assets/images/svg/diagonal-square.svg');
+    background-size: 18rem 17.7rem;
+    background-repeat: no-repeat;
+    background-position: 50% calc(100% - 2.4rem);
+}
+
+@media (min-width: 700px) {
+    .tier-diagonalbackground {
+        background-size: 36rem 35.4rem;
+        background-position: calc(100% - 6rem) 50%;
+    }
 }

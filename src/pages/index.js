@@ -31,7 +31,7 @@ const IndexPage = ({ data }) => {
     return (
         <Layout>
             <SEO title="Home" />
-            <section className="tier tier-centered tier-lightbackground">
+            <section className="tier tier-centered tier-lightbackground tier-diagonalbackground">
                 <div className="grid grid-2colresponsive grid-small">
                     <div className="mix-centered">
                         <h1 className="heading heading-1 heading-primary">
