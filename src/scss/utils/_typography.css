@@ -1,7 +1,7 @@
 .txt {
     font-family:  var(--font-body);
     font-size: 1.6rem;
-    color: var(--color-gray-30);
+    color: var(--color-text-normal);
     line-height: 1.5;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .txt-white {
-    color: var(--color-white);
+    color: var(--color-text-highlight);
 }
 
 .heading {
@@ -57,15 +57,15 @@
 }
 
 .heading-primary {
-    color: var(--color-primary-70);
+    color: var(--color-heading-primary);
 }
 
 .heading-secondary {
-    color: var(--color-secondary-72);
+    color: var(--color-heading-secondary);
 }
 
 .heading-white {
-    color: var(--color-white);
+    color: var(--color-text-highlight);
 }
 
 @media (min-width: 950px) {

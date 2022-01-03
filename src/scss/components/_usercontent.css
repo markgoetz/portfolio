@@ -1,7 +1,7 @@
 .usercontent {
     font-family:  var(--font-body);
     font-size: 1.6rem;
-    color: var(--color-gray-30);
+    color: var(--color-text-normal);
     line-height: 1.5;
 }
 
@@ -13,14 +13,14 @@
 
 .usercontent h1 {
     font-family: var(--font-heading);
-    color: var(--color-primary-70);
+    color: var(--color-heading-primary);
     font-size: 3rem;
     font-weight: 600;
 }
 
 .usercontent h2 {
     font-family: var(--font-heading);
-    color: var(--color-primary-70);
+    color: var(--color-heading-primary);
     font-size: 2.4rem;
     font-weight: 800;
     margin: .75em 0;
@@ -28,7 +28,7 @@
 
 .usercontent h3 {
     font-family: var(--font-heading);
-    color: var(--color-secondary-72);
+    color: var(--color-heading-secondary);
     font-size: 2.1rem;
     font-weight: 600;
     margin: .75em 0;
@@ -68,10 +68,10 @@
 }
 
 .usercontent a, .usercontent a:visited {
-    color: var(--color-secondary-72);
+    color: var(--color-link);
     text-decoration: underline;
 }
 
 .usercontent a:hover, .usercontent a:active {
-    background-color: var(--color-secondary-95);
+    background-color: var(--color-link-background);
 }

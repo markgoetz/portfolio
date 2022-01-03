@@ -1,20 +1,33 @@
 :root {
-    --color-primary-59: #960520;
-    --color-primary-70: #b3043b;
-    --color-primary-76: #c1134b;
+    --color-menu-bar-gradient-start: #960520;
+    --color-menu-bar-gradient-end: #c1134b;
 
-    --color-secondary-42: #06436c;
-    --color-secondary-61: #18669b;
-    --color-secondary-72: #0b73b8;
-    --color-secondary-95: #b7def1;
-    --color-secondary-96: #e1edf6;
-    --color-secondary-98: #fef7fa;
-    --color-secondary-100: #f7fcff;
+    --color-heading-primary: #b3043b;
+    --color-heading-secondary: #0b73b8;
 
-    --color-gray-30: #4d4347;
-    --color-gray-91: #e8e6e6;
-    --color-white: #ffffff;
+    --color-button-inner-start: #06436c;
+    --color-button-inner-end: #18669b;
+    --color-button-outer: #b7def1;
+
+    --color-highlight-background: #0b73b8;
+    
+    --color-text-normal: #4d4347;
+    --color-text-highlight: #fef7fa;
+
+    --color-link: #0b73b8;
+    --color-link-background: #b7def1;
+
+    --color-tier-background: #f7fcff;
+    --color-tier-aside-background: #e1edf6;
+
+    --color-content-well-background: #e8e6e6;
 
     --font-heading: 'Oxanium', 'Helvetica', sans-serif;
     --font-body: 'Open Sans', 'Helvetica', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+
+    }
 }
