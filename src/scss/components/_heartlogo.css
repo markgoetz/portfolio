@@ -1,3 +1,19 @@
 .heartlogo {
     width: 100%;
 }
+
+.heartlogo-gradient-stop1 {
+    stop-color: var(--color-primary-gradient-start);
+}
+
+.heartlogo-gradient-stop2 {
+    stop-color: var(--color-primary-gradient-end);
+}
+
+.heartlogo-emptybox-top {
+    fill: var(--color-emptybox-top);
+}
+
+.heartlogo-emptybox-bottom {
+    fill: var(--color-emptybox-bottom);
+}

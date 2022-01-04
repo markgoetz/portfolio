@@ -1,8 +1,8 @@
 .menubar {
     display: flex;
     flex-direction: row;
-    background-color: var(--color-menu-bar-gradient-start);
-    background-image: linear-gradient(to bottom, var(--color-menu-bar-gradient-end) 0%, var(--color-menu-bar-gradient-start) 100%);
+    background-color: var(--color-primary-gradient-start);
+    background-image: linear-gradient(to bottom, var(--color-primary-gradient-end) 0%, var(--color-primary-gradient-start) 100%);
     padding: 10px;
 }
 
