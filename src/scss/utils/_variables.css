@@ -48,13 +48,13 @@
         --color-text-light: #fef7fa;
         --color-text-highlight: #01243b;
 
-/*        --color-link: #0b73b8; */
-/*        --color-link-background: #b7def1; */
+       --color-link: #41ABF1;
+       --color-link-background: #083859;
 
         --color-tier-background: #00131F;
         --color-tier-aside-background: #042942;
 
-        --color-content-well-background: #3C383A;
+        --color-content-well-background: #252425;
 
         --color-emptybox-top: #033046;
         --color-emptybox-bottom: #012435;
