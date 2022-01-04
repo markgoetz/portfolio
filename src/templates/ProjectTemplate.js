@@ -19,7 +19,7 @@ const ProjectTemplate = ({ data }) => {
                     />
                 </div>
                 <div className="project-namecontainer">
-                    <h1 className="heading heading-2 heading-white">{frontmatter.title}</h1>
+                    <h1 className="heading heading-2 heading-highlight">{frontmatter.title}</h1>
                 </div>
             </div>
 

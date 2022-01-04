@@ -12,6 +12,7 @@
     --color-highlight-background: #0b73b8;
     
     --color-text-normal: #4d4347;
+    --color-text-light: #fef7fa;
     --color-text-highlight: #fef7fa;
 
     --color-link: #0b73b8;
@@ -44,7 +45,8 @@
         --color-highlight-background: #41ABF1;
 
         --color-text-normal: #E6D1D9;
-        --color-text-highlight: #fef7fa;
+        --color-text-light: #fef7fa;
+        --color-text-highlight: #01243b;
 
 /*        --color-link: #0b73b8; */
 /*        --color-link-background: #b7def1; */

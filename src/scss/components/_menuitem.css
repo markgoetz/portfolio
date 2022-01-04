@@ -25,7 +25,7 @@
 .menulink {
     display: block;
     padding: 10px 10px 10px 44px;
-    color: var(--color-text-highlight);
+    color: var(--color-text-light);
     transition: background-color .15s;
 }
 

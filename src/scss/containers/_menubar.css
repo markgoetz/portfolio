@@ -21,7 +21,7 @@
 .menubutton {
     font-size: 1.8rem;
     min-height: 44px;
-    color: var(--color-text-highlight);
+    color: var(--color-text-light);
     border: none;
     font-family: var(--font-heading);
     font-weight: 600;

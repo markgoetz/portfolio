@@ -33,7 +33,7 @@
 }
 
 .txt-white {
-    color: var(--color-text-highlight);
+    color: var(--color-text-light);
 }
 
 .heading {
@@ -64,7 +64,7 @@
     color: var(--color-heading-secondary);
 }
 
-.heading-white {
+.heading-highlight {
     color: var(--color-text-highlight);
 }
 
