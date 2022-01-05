@@ -2,6 +2,9 @@
     --color-primary-gradient-start: #960520;
     --color-primary-gradient-end: #c1134b;
 
+    --color-menubar-gradient-start: #c1134b;
+    --color-menubar-gradient-end: #960520;
+
     --color-heading-primary: #b3043b;
     --color-heading-secondary: #0b73b8;
 
@@ -32,8 +35,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-primary-gradient-start: #470411;
-        --color-primary-gradient-end: #7b0e31;
+        --color-menubar-gradient-start: #7b0e31;
+        --color-menubar-gradient-end: #470411;
 
         --color-heading-primary: #F13571;
         --color-heading-secondary: #41ABF1;

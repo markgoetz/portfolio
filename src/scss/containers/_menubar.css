@@ -1,8 +1,8 @@
 .menubar {
     display: flex;
     flex-direction: row;
-    background-color: var(--color-primary-gradient-start);
-    background-image: linear-gradient(to bottom, var(--color-primary-gradient-end) 0%, var(--color-primary-gradient-start) 100%);
+    background-color: var(--color-menubar-gradient-start);
+    background-image: linear-gradient(to bottom, var(--color-menubar-gradient-start) 0%, var(--color-menubar-gradient-end) 100%);
     padding: 10px;
 }
 
@@ -53,13 +53,13 @@
         flex-direction: row;
     }
 
-    .submenu > *+* {
+    .submenu > * + * {
         margin-left: 10px;
     }
 }
 
 @media (min-width: 950px) {
-    .submenu > *+* {
+    .submenu > * + * {
         margin-left: 20px;
     }
 }
