@@ -11,8 +11,8 @@ skills:
     - Art Integration
 links:
     - { url: "http://gamejolt.com/games/siren-song/29135", title: "Play Siren Song on GameJolt" }
-    - { url: "http://ludumdare.com/compo/ludum-dare-29/?action=preview&uid=34393", title: "Siren Song entry page on Ludum Dare" }
-    - { url: "http://ludumdare.com/compo/author/mark-goetz/", title: "Ludum Dare Development Blog" }
+    - { url: "https://web.archive.org/web/20210301172527/http://ludumdare.com/compo/ludum-dare-29/?action=preview&uid=34393", title: "Siren Song entry page on Ludum Dare" }
+    - { url: "https://web.archive.org/web/20210225024741/http://ludumdare.com/compo/author/mark-goetz/", title: "Ludum Dare Development Blog" }
     - { url: "https://github.com/markgoetz/Siren-Song", title: "Github repository" }
 ---
 

@@ -19,13 +19,13 @@
 }
 
 .menuitem:hover, .menuitem:focus {
-    background-color: var(--color-secondary-72);
+    background-color: var(--color-highlight-background);
 }
 
 .menulink {
     display: block;
     padding: 10px 10px 10px 44px;
-    color: var(--color-white);
+    color: var(--color-text-light);
     transition: background-color .15s;
 }
 

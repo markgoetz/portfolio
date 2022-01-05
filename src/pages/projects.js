@@ -15,7 +15,7 @@ const ProjectItem = ({ frontmatter, imageUrl }) => {
                     />
                 </div>
                 <div className="project-namecontainer">
-                    <h2 className="heading heading-2 heading-white">
+                    <h2 className="heading heading-2 heading-highlight">
                         {frontmatter.title}
                     </h2>
                 </div>

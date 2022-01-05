@@ -2,3 +2,9 @@
     height: 100%;
     background-image: url('../../assets/images/svg/background-tile.svg');
 }
+
+@media (prefers-color-scheme: dark) {
+    .main {
+        background-image: url('../../assets/images/svg/background-tile-dark.svg');
+    }
+}

@@ -3,11 +3,11 @@
 }
 
 .tier-lightbackground {
-    background-color: var(--color-secondary-100);
+    background-color: var(--color-tier-background);
 }
 
 .tier-darkbackground {
-    background-color: var(--color-secondary-96);
+    background-color: var(--color-tier-aside-background);
 }
 
 @media (min-width: 950px) {

@@ -7,3 +7,9 @@
     content: ' ';
     display: inline-block;
 }
+
+@media (prefers-color-scheme: dark) {
+    .bulletlist > *::before {
+        background-image: url('../../assets/images/svg/empty-square-dark.svg');
+    }
+}

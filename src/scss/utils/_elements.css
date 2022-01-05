@@ -1,10 +1,10 @@
 html {
     font-size: 62.5%;
-    background-color: var(--color-gray-91);
+    background-color: var(--color-content-well-background);
 }
 
 *:focus {
-    outline: solid dotted var(--color-gray-30);
+    outline: solid dotted var(--color-text-normal);
 }
 
 a {

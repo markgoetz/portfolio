@@ -11,13 +11,13 @@
     background-size: 200% 100%;
     background-image: linear-gradient(
         to right,
-        var(--color-secondary-42) 0,
-        var(--color-secondary-42) 49.9%,
-        var(--color-secondary-61) 50.1%,
-        var(--color-secondary-61) 100%
+        var(--color-button-inner-start) 0,
+        var(--color-button-inner-start) 49.9%,
+        var(--color-button-inner-end) 50.1%,
+        var(--color-button-inner-end) 100%
     );
     background-position: 100%;
-    color: var(--color-secondary-98);
+    color: var(--color-text-highlight);
     padding: 6px 24px;
     margin: 6px;
     display: block;
@@ -44,7 +44,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: var(--color-secondary-95);
+    background-color: var(--color-button-outer);
     height: 100%;
     width: 100%;
     border-top-left-radius: 6px;
@@ -57,7 +57,7 @@
     height: 100%;
     right: 0px;
     width: 100%;
-    background-color: var(--color-secondary-95);
+    background-color: var(--color-button-outer);
     border-bottom-right-radius: 6px;
     clip-path: polygon(24px calc(100% - 6px), calc(100% - 6px) calc(100% - 6px), calc(100% - 6px) 24px, 100% 18px, 100% 100%, 18px 100%);
 }

@@ -13,7 +13,7 @@
 }
 
 .project-namecontainer {
-    background-color: var(--color-secondary-72);
+    background-color: var(--color-highlight-background);
     text-align: left;
     padding: 10px;
 }
