@@ -28,6 +28,7 @@ To make use of my extensive programming background and my prior experience as a 
 - Consult with back-end developers to ensure correct integration of front-end code and design of APIs
 - Consult with product owners and designers to assess technical feasibility of ideas, and advise on alternatives as needed
 - Led development of internal office project with React, Redux, TypeScript, and Sass; coordinated efforts of a front-end and back-end developer, resulting in a dashboard that is used on a daily basis throughout the office
+- Grade technical assessments and assist on interviews for job candidates
 - Give internal presentations about JavaScript technologies and techniques to larger front-end team
 - Guide associate- and staff-level engineers on technical concerns and career development
 
