@@ -21,11 +21,13 @@
 .mix-closeonmobile {
     height: 0px;
     opacity: 0;
+    visibility: hidden;
 }
 
 @media(min-width: 700px) {
     .mix-closeonmobile {
         height: auto;
         opacity: 1;
+        visibility: visible;
     }
 }
