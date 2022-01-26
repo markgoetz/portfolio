@@ -18,7 +18,7 @@ const Header = ({ siteTitle, links }) => {
                     <Link to="/" className="link-homepage">
                         <div className="flag">
                             <div className="flag-image">
-                                <img src={LogoUrl} alt="A heart made of squares" width="61" height="61" />
+                                <img src={LogoUrl} alt="A heart made of 81 squares" width="61" height="61" />
                             </div>
                         </div>
                     </Link>

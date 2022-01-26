@@ -9,4 +9,4 @@ But I realized from my experience in school and work that knowing how to build s
 
 After bouncing around PHP development and UX design, I've arrived at front-end development.  I'm working for [Nerdery](https://nerdery.com) in Chicago, as a Principal Software Engineer.  I lead projects, mentor other developers, and help guide the front-end domain. 
 
-When not turning tea into JavaScript and semantic HTML, I can be found playing board games or video games, or riding my bike.
+When not turning tea into TypeScript and semantic HTML, I can be found playing board games or video games, or riding my bike.
