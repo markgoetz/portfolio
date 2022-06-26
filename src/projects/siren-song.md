@@ -2,7 +2,7 @@
 slug: "siren-song"
 title: "Siren Song"
 headerImage: "siren song"
-order: 4
+order: 5
 skills:
     - JavaScript
     - Canvas
