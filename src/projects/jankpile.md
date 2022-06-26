@@ -17,4 +17,4 @@ links:
 
 Jankpile is a web app to help Magic: the Gathering players construct Brawl and Historic Brawl decks.  Players can search for commanders by color, select a commander, then add spells and lands to their deck.  Jankpile includes search features to help players find spells that go well with their commander, and also summarizes decks to help players know the right combination of lands to add.
 
-Jankpile was built in 2022 using React, Redux Toolkit, Sass, TypeScript.  It retrieves cards by connecting to [Scryfall](https://scryfall.com/docs/api), which is Magic the Gathering's public-facing API.  It is hosted on Netlify and uses serverless functions to maintain both the client-side code and server-side code in a single codebase.
+Jankpile was built in 2022 using React, Redux Toolkit, Sass, and TypeScript.  It retrieves cards by connecting to [Scryfall](https://scryfall.com/docs/api), which is Magic the Gathering's public-facing API.  It is hosted on Netlify and uses serverless functions to maintain both the client-side code and server-side code in a single codebase.
