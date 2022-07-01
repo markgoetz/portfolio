@@ -35,7 +35,7 @@ const IndexPage = ({ data }) => {
                 <div className="grid grid-2colresponsive grid-small">
                     <div className="mix-centered">
                         <h1 className="heading heading-1 heading-primary">
-                            Mark Goetz
+                            mark goetz
                         </h1>
                         <Hero />
                     </div>
