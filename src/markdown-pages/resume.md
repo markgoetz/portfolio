@@ -24,7 +24,7 @@ To make use of my extensive programming background and my prior experience as a 
 
 #### Nerdery, 11/2016 – Present
 
-- Develop interactive and accessible websites and apps for various clients, using a range of technologies including ES6, React, VueJS, Sass, and HTML5, including leading front-end development on a consumer-facing privacy app
+- Develop interactive and accessible websites and apps for various clients, using a range of technologies including ES6, TypeScript. React, VueJS, Sass, and HTML5, including leading front-end development on a consumer-facing privacy app
 - Consult with back-end developers to ensure correct integration of front-end code and design of APIs
 - Consult with product owners and designers to assess technical feasibility of ideas, and advise on alternatives as needed
 - Led development of internal office project with React, Redux, TypeScript, and Sass; coordinated efforts of a front-end and back-end developer, resulting in a dashboard that is used on a daily basis throughout the office
