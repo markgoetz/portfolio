@@ -16,7 +16,7 @@ links:
     - { url: "https://github.com/markgoetz/Siren-Song", title: "Github repository" }
 ---
 
-Siren Song is an arcade game created for the 48-hour Ludum Dare 29 game jam, using JavaScript. Play as an ancient Greek sea serpent who lures sailors to death with her sweet voice and deadly claws.
+Siren Song is an arcade game created for the 48-hour Ludum Dare game jam in 2014, using JavaScript. Play as an ancient Greek sea serpent who lures sailors to death with her sweet voice and deadly claws.
 
 I worked with [Gerry Swanson](https://fromhellsheart.tumblr.com/), who designed the idea and made all of the art assets.  I was responsible for all development, and supplied game design ideas as well.
 
