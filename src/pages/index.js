@@ -45,7 +45,7 @@ const IndexPage = ({ data }) => {
                         </h2>
                         <div className="spacer" />
                         <p className="txt">
-                            I'm Mark Goetz, a front-end developer in Chicago.  I've been designing and coding web interfaces for 15 years.
+                            I'm Mark Goetz, a front-end developer in New Jersey.  I've been designing and coding web interfaces for 15 years.
                         </p>
 
                         <div className="spacer" />
