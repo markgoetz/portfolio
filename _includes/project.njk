@@ -1,0 +1,13 @@
+---
+layout: layout.njk
+---
+
+<h2>henlo i am a project</h2>
+
+{{ content | safe }}
+
+<ul>
+{%- for skill in skills -%}
+<li>{{skill}}</li>
+{%- endfor -%}
+</ul>
