@@ -4,7 +4,7 @@ title: "Projects"
 ---
 <div class="tier tier-lightbackground">
     <h1 class="heading heading-1 heading-primary">Projects</h1>
-    <div class="spacer" />
+    <div class="spacer"></div>
     <ul class="vlist">
     {%- for post in collections.project reversed -%}
         <li>
