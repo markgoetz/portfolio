@@ -1,5 +1,6 @@
 ---
 layout: project.njk
+tags: project
 title: "Swifty Beams"
 headerImage: "swifty beams"
 order: 4

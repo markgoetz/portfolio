@@ -1,7 +1,7 @@
 .project {
     width: 100%;
     max-width: 1200px;
-    /* margin: 0px auto; */
+    display: block;
 }
 
 .project-imagecontainer {
@@ -16,4 +16,5 @@
     background-color: var(--color-highlight-background);
     text-align: left;
     padding: 10px;
+    display: block;
 }

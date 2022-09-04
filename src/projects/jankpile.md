@@ -1,5 +1,6 @@
 ---
 layout: project.njk
+tags: project
 title: "Jankpile"
 headerImage: "jankpile"
 order: 0

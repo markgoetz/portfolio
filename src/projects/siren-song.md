@@ -1,5 +1,6 @@
 ---
 layout: project.njk
+tags: project
 title: "Siren Song"
 headerImage: "siren song"
 order: 5

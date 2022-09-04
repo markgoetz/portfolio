@@ -1,5 +1,6 @@
 ---
 layout: project.njk
+tags: project
 title: "Tonetracers"
 headerImage: "tonetracers"
 order: 3

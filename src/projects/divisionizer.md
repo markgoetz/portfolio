@@ -1,5 +1,6 @@
 ---
 layout: project.njk
+tags: project
 title: "Divisionizer"
 headerImage: "divisionizer"
 order: 2
