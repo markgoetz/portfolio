@@ -1,5 +1,5 @@
 ---
-slug: "swifty-beams"
+layout: project.njk
 title: "Swifty Beams"
 headerImage: "swifty beams"
 order: 4

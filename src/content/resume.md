@@ -1,5 +1,5 @@
 ---
-path: "/static/resume"
+layout: layout.njk
 title: "Resume"
 ---
 

@@ -14,11 +14,11 @@
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf ./_site",
-    "start:eleventy": "eleventy --serve",
-    "build:eleventy": "eleventy",
-    "start:sass": "sass scss/_main.scss _site/index.css --watch",
-    "build:sass": "sass scss/_main.scss _site/index.css --style=compressed",
-    "start": "yarn clean && run-p start:eleventy start:sass",
+    "start:eleventy": "eleventy --input=src/content --serve",
+    "build:eleventy": "eleventy --input=src/content",
+    "start:sass": "sass src/scss/_main.scss _site/index.css --watch",
+    "build:sass": "sass src/scss/_main.scss _site/index.css --style=compressed",
+    "start": "yarn clean && yarn build:sass && run-p start:eleventy start:sass",
     "build": "yarn clean && yarn build:sass && yarn build:eleventy"
   }
 }

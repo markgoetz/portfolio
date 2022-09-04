@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Mark Goetz | Swifty Beams</title>
+        <link href="/index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header className="menubar">
+            <div className="headerlist">
+    <div className="headerlist-item">
+        <a href="/" className="link-homepage">
+            <div className="flag">
+                <div className="flag-image">
+                    <img src={LogoUrl} alt="A heart made of 81 squares" width="61" height="61" />
+                </div>
+            </div>
+        </a>
+    </div>
+    <div className="mix-hideondesktop headerlist-item">
+        <button type="button" className="menubutton" onClick={toggleMenu}>Menu</button>
+    </div>
+    <div className="hi">
+        <nav className="menu" id="menu">
+            <div>
+                <ul className="submenu">
+                    <li className="menuitem"><a className="menulink" href="/projects">Projects</a></li>
+                    <li className="menuitem"><a className="menulink" href="/static/about">About Me</a></li>
+                    <li className="menuitem"><a className="menulink" href="/static/resume">Resume</a></li>
+                </ul>
+            </div>
+            <div className="submenu-maxspace">
+                <ul className="submenu">
+                    <li className="menuitem">
+                        <a href="http://www.github.com/markgoetz" className="menulink menulink-icon menulink-icon-github">Github</a>
+                        <a href="http://www.linkedin.com/in/markgoetz" className="menulink menulink-icon menulink-icon-github">LinkedIn</a>
+                        <a href="https://codepen.io/markgoetz" className="menulink menulink-icon menulink-icon-codepen">CodePen</a>
+                        <a href="mailto:mark@markandrewgoetz.com" className="menulink menulink-icon menulink-icon-email">Email</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+        </header>
+        <main className="main">
+            <div className="content">
+                
+<p>Swifty Beams is an entry for the 2014 Flappy Jam, written in JavaScript. Run as quickly as you can in an underground laboratory, avoiding deadly laser beams as you go.</p>
+<p>Swifty Beams placed 9th out of almost 800 entries. All work is my own, from the design to the game engine to the game code to the art assets to the sound.</p>
+
+
+<ul><li>JavaScript</li><li>Canvas</li><li>Art</li></ul>
+            </div>
+        </main>
+        <footer className="menubar">
+            <div className="mix-centered">
+                <p className="txt txt-white">
+                    Copyright 2022 Mark Goetz. All rights reserved
+                    &nbsp;•&nbsp;
+                    Built with <a className="link link-white" href="https://www.11ty.dev/">11ty</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

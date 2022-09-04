@@ -1,5 +1,5 @@
 ---
-slug: "d20calc"
+layout: project.njk
 title: "D20calc.com"
 headerImage: "d20calc"
 order: 1

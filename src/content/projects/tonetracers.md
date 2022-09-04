@@ -1,5 +1,5 @@
 ---
-slug: "tonetracers"
+layout: project.njk
 title: "Tonetracers"
 headerImage: "tonetracers"
 order: 3

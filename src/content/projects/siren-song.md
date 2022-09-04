@@ -1,5 +1,5 @@
 ---
-slug: "siren-song"
+layout: project.njk
 title: "Siren Song"
 headerImage: "siren song"
 order: 5

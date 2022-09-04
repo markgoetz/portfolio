@@ -1,5 +1,5 @@
 ---
-slug: "divisionizer"
+layout: project.njk
 title: "Divisionizer"
 headerImage: "divisionizer"
 order: 2

@@ -1,5 +1,5 @@
 ---
-slug: "jankpile"
+layout: project.njk
 title: "Jankpile"
 headerImage: "jankpile"
 order: 0
