@@ -10,10 +10,10 @@ const Template = ({ data }) => {
     return (
         <Layout>
             <SEO title={frontmatter.title} />
-            <div className="tier tier-lightbackground">
-                <h1 className="heading heading-1 heading-primary">{frontmatter.title}</h1>
-                <div className="spacer" />
-                <main className="usercontent" dangerouslySetInnerHTML={{ __html: html }} />
+            <div class="tier tier-lightbackground">
+                <h1 class="heading heading-1 heading-primary">{frontmatter.title}</h1>
+                <div class="spacer" />
+                <main class="usercontent" dangerouslySetInnerHTML={{ __html: html }} />
             </div>
         </Layout>
     );

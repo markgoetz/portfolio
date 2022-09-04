@@ -10,38 +10,38 @@ const ProjectTemplate = ({ data }) => {
     return (
         <Layout>
             <SEO title={frontmatter.title} />
-            <div className="project">
-                <div className="project-imagecontainer">
+            <div class="project">
+                <div class="project-imagecontainer">
                     <img
                         src={file.publicURL}
-                        className="project-image"
+                        class="project-image"
                         alt={`${frontmatter.title} screenshot`}
                     />
                 </div>
-                <div className="project-namecontainer">
-                    <h1 className="heading heading-2 heading-highlight">{frontmatter.title}</h1>
+                <div class="project-namecontainer">
+                    <h1 class="heading heading-2 heading-highlight">{frontmatter.title}</h1>
                 </div>
             </div>
 
-            <div className="twocolumnlayout">
-                <main className="txt">
-                    <div className="usercontent" dangerouslySetInnerHTML={{ __html: html }} />
+            <div class="twocolumnlayout">
+                <main class="txt">
+                    <div class="usercontent" dangerouslySetInnerHTML={{ __html: html }} />
                 </main>
 
-                <aside className="sidebar">
-                    <div className="vlist vlist-xsmall">
-                        <h2 className="heading heading-2 heading-secondary">What I did</h2>
-                        <ul className="bulletlist">
-                            {frontmatter.skills.map(skill => <li className="txt" key={skill}>{skill}</li>)}
+                <aside class="sidebar">
+                    <div class="vlist vlist-xsmall">
+                        <h2 class="heading heading-2 heading-secondary">What I did</h2>
+                        <ul class="bulletlist">
+                            {frontmatter.skills.map(skill => <li class="txt" key={skill}>{skill}</li>)}
                         </ul>
                     </div>
 
-                    <div className="vlist vlist-xsmall">
-                        <h2 className="heading heading-2 heading-secondary">Links</h2>
-                        <ul className="bulletlist">
+                    <div class="vlist vlist-xsmall">
+                        <h2 class="heading heading-2 heading-secondary">Links</h2>
+                        <ul class="bulletlist">
                             {frontmatter.links.map(link => (
-                                <li key={link.url} className="txt">
-                                    <a className="link" href={link.url}>{link.title}</a>
+                                <li key={link.url} class="txt">
+                                    <a class="link" href={link.url}>{link.title}</a>
                                 </li>
                             ))}
                         </ul>

@@ -9,14 +9,14 @@ import SEO from "../components/SEO";
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <section className="tier tier-centered">
-      <div className="heartlogo">
+    <section class="tier tier-centered">
+      <div class="heartlogo">
         {/* <Hero /> */}
       </div>
-      <div className="container">
-        <h1 className="heading heading-1">Oh no.</h1>
-        <div className="spacer" />
-        <p className="txt">
+      <div class="container">
+        <h1 class="heading heading-1">Oh no.</h1>
+        <div class="spacer" />
+        <p class="txt">
           You've either followed a broken link, or broken my heart.  Why don't you go <Link to="/">back to the homepage?</Link>
         </p>
       </div>

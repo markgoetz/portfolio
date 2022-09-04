@@ -6,16 +6,16 @@ import SEO from '../components/SEO';
 const ProjectItem = ({ frontmatter, imageUrl }) => {
     return (
         <Link to={`/projects/${frontmatter.slug}`}>
-            <div className="project">
-                <div className="project-imagecontainer">
+            <div class="project">
+                <div class="project-imagecontainer">
                     <img
                         src={imageUrl}
-                        className="project-image"
+                        class="project-image"
                         alt={`${frontmatter.title} screenshot`}
                     />
                 </div>
-                <div className="project-namecontainer">
-                    <h2 className="heading heading-2 heading-highlight">
+                <div class="project-namecontainer">
+                    <h2 class="heading heading-2 heading-highlight">
                         {frontmatter.title}
                     </h2>
                 </div>
@@ -30,10 +30,10 @@ const ProjectsListPage = ({ data }) => {
     return (
         <Layout>
             <SEO title="Projects" />
-            <div className="tier tier-lightbackground">
-                <h1 className="heading heading-1 heading-primary">Projects</h1>
-                <div className="spacer" />
-                <ul className="vlist">
+            <div class="tier tier-lightbackground">
+                <h1 class="heading heading-1 heading-primary">Projects</h1>
+                <div class="spacer" />
+                <ul class="vlist">
                     { edges.map(edge => {
                         const file = data.allFile.edges.find(fileEdge => fileEdge.node.name === edge.node.frontmatter.headerImage);
 

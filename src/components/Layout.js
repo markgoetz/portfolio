@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
             siteMetadata {
                 title
                     links {
-                        className
+                        class
                         serviceName
                         url
                     }
@@ -21,19 +21,19 @@ const Layout = ({ children }) => {
     `);
 
     return (
-        <div className="sitecontainer">
+        <div class="sitecontainer">
             <Header siteTitle={data.site.siteMetadata.title} links={data.site.siteMetadata.links} />
-            <main className="main">
-                <div className="content">
+            <main class="main">
+                <div class="content">
                     {children}
                 </div>
             </main>
-            <footer className="menubar">
-                <div className="mix-centered">
-                    <p className="txt txt-white">
+            <footer class="menubar">
+                <div class="mix-centered">
+                    <p class="txt txt-white">
                         Copyright {new Date().getFullYear()} Mark Goetz. All rights reserved
                         &nbsp;•&nbsp;
-                        Built with <a className="link link-white" href="https://www.gatsbyjs.org">Gatsby</a>
+                        Built with <a class="link link-white" href="https://www.gatsbyjs.org">Gatsby</a>
                     </p>
                 </div>
             </footer>
