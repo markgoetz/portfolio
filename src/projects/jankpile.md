@@ -1,8 +1,9 @@
 ---
-slug: "jankpile"
+layout: project.njk
+tags: project
 title: "Jankpile"
 headerImage: "jankpile"
-order: 0
+date: 2022-06-01
 skills:
     - CSS
     - Sass

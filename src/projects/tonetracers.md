@@ -1,8 +1,9 @@
 ---
-slug: "tonetracers"
+layout: project.njk
+tags: project
 title: "Tonetracers"
 headerImage: "tonetracers"
-order: 3
+date: 2014-06-01
 skills:
     - JavaScript
     - Canvas

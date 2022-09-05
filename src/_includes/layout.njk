@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Mark Goetz | {{ title }}</title>
+        <link href="/index.css" rel="stylesheet" />
+        <link rel="icon" href="/assets/images/heart.png" type="image/png">
+    </head>
+    <body>
+        <div class="sitecontainer">
+            <header class="menubar">
+                {% include "header.njk" %}
+            </header>
+            <main class="main">
+                <div class="content">
+                    {{ content | safe }}
+                </div>
+            </main>
+            <footer class="menubar">
+                <div class="mix-centered">
+                    <p class="txt txt-white">
+                        Copyright 2022 Mark Goetz. All rights reserved
+                        &nbsp;•&nbsp;
+                        Built with <a class="link link-white" href="https://www.11ty.dev/">11ty</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

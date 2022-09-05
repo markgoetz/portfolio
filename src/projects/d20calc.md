@@ -1,8 +1,9 @@
 ---
-slug: "d20calc"
+layout: project.njk
+tags: project
 title: "D20calc.com"
 headerImage: "d20calc"
-order: 1
+date: 2019-01-01
 skills:
     - CSS
     - Sass

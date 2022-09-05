@@ -1,5 +1,5 @@
 ---
-path: "/static/about"
+layout: static.njk
 title: "About Me"
 ---
 

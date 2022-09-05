@@ -1,0 +1,46 @@
+---
+layout: layout.njk
+---
+
+<div class="project">
+    <div class="project-imagecontainer">
+        <img
+            src="/assets/images/headerimages/{{headerImage}}.png"
+            class="project-image"
+            alt="{{title}} screenshot"
+        />
+    </div>
+    <div class="project-namecontainer">
+        <h1 class="heading heading-2 heading-highlight">{{title}}</h1>
+    </div>
+</div>
+
+<div class="twocolumnlayout">
+    <main class="txt">
+        <div class="usercontent">
+            {{ content | safe }}
+        </div>
+    </main>
+
+    <aside class="sidebar">
+        <div class="vlist vlist-xsmall">
+            <h2 class="heading heading-2 heading-secondary">What I did</h2>
+            <ul class="bulletlist">
+                {% for skill in skills %}
+                    <li class="txt">{{skill}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="vlist vlist-xsmall">
+            <h2 class="heading heading-2 heading-secondary">Links</h2>
+            <ul class="bulletlist">
+                {% for link in links %}
+                    <li class="txt">
+                        <a class="link" href="{{link.url}}">{{link.title}}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </aside>
+</div>

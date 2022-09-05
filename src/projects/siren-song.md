@@ -1,8 +1,9 @@
 ---
-slug: "siren-song"
+layout: project.njk
+tags: project
 title: "Siren Song"
 headerImage: "siren song"
-order: 5
+date: 2014-04-01
 skills:
     - JavaScript
     - Canvas

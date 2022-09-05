@@ -1,0 +1,47 @@
+<div class="headerlist">
+    <div class="headerlist-item">
+        <a href="/" class="link-homepage">
+            <div class="flag">
+                <div class="flag-image">
+                    <img src="/assets/images/svg/81-squares-header.svg" alt="A heart made of 81 squares" width="61" height="61" />
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="mix-hideondesktop headerlist-item">
+        <button type="button" class="menubutton" onClick="toggleMenu()">Menu</button>
+    </div>
+    <div class="headerlist-item headerlist-item-maxwidth mix-closeonmobile" id="js-menubody">
+        <nav class="menu" id="menu">
+            <div>
+                <ul class="submenu">
+                    <li class="menuitem"><a class="menulink" href="/projects">Projects</a></li>
+                    <li class="menuitem"><a class="menulink" href="/about">About Me</a></li>
+                    <li class="menuitem"><a class="menulink" href="/resume">Resume</a></li>
+                </ul>
+            </div>
+            <div class="submenu-maxspace">
+                <ul class="submenu">
+                    <li class="menuitem">
+                        <a href="http://www.github.com/markgoetz" class="menulink menulink-icon menulink-icon-github">Github</a>
+                    </li>
+                    <li class="menuitem">
+                        <a href="http://www.linkedin.com/in/markgoetz" class="menulink menulink-icon menulink-icon-linkedin">LinkedIn</a>
+                    </li>
+                    <li class="menuitem">
+                        <a href="https://codepen.io/markgoetz" class="menulink menulink-icon menulink-icon-codepen">CodePen</a>
+                    </li>
+                    <li class="menuitem">
+                        <a href="mailto:mark@markandrewgoetz.com" class="menulink menulink-icon menulink-icon-email">Email</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <script type="text/javascript">
+        function toggleMenu() {
+            document.getElementById('js-menubody').classList.toggle('mix-closeonmobile');
+        }
+    </script>
+</div>

@@ -1,8 +1,9 @@
 ---
-slug: "swifty-beams"
+layout: project.njk
+tags: project
 title: "Swifty Beams"
 headerImage: "swifty beams"
-order: 4
+date: 2014-02-01
 skills:
     - JavaScript
     - Canvas

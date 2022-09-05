@@ -1,8 +1,9 @@
 ---
-slug: "divisionizer"
+layout: project.njk
+tags: project
 title: "Divisionizer"
 headerImage: "divisionizer"
-order: 2
+date: 2016-01-01
 skills:
     - CSS
     - Sass
