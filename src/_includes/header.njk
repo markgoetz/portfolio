@@ -9,9 +9,9 @@
         </a>
     </div>
     <div class="mix-hideondesktop headerlist-item">
-        <button type="button" class="menubutton" onClick={toggleMenu}>Menu</button>
+        <button type="button" class="menubutton" onClick="toggleMenu()">Menu</button>
     </div>
-    <div class="headerlist-item headerlist-item-maxwidth">
+    <div class="headerlist-item headerlist-item-maxwidth mix-closeonmobile" id="js-menubody">
         <nav class="menu" id="menu">
             <div>
                 <ul class="submenu">
@@ -38,4 +38,10 @@
             </div>
         </nav>
     </div>
+    
+    <script type="text/javascript">
+        function toggleMenu() {
+            document.getElementById('js-menubody').classList.toggle('mix-closeonmobile');
+        }
+    </script>
 </div>
