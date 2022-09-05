@@ -10,7 +10,7 @@ title: "Homepage"
             <h1 class="heading heading-1 heading-primary">
                 mark goetz
             </h1>
-            <Hero />
+            {%- inlineSvg './src/assets/images/svg/inline/heart-logo.inline.svg' -%}
         </div>
         <div class="container">
             <h2 class="heading heading-2 heading-primary">
