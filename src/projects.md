@@ -5,7 +5,8 @@ title: "Projects"
 <div class="tier tier-lightbackground">
     <h1 class="heading heading-1 heading-primary">Projects</h1>
     <div class="spacer"></div>
-    <ul class="vlist">{% for post in collections.project | reverse %}
+    <ul class="vlist">
+        {%- for post in collections.project | reverse -%}
         <li>
             <a href="{{post.url}}">
                 <span class="project">
@@ -23,6 +24,7 @@ title: "Projects"
                     </span>
                 </span>
             </a>
-        </li>{% endfor %}
+        </li>
+        {%- endfor -%}
     </ul>
 </div>
