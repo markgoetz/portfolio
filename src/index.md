@@ -60,6 +60,26 @@ title: "Homepage"
         <h2 class="heading heading-2 heading-secondary">My Projects</h2>
         <p class="txt">I've made a number of awesome web experiences, both professionally and personally.</p>
         <ul class="grid grid-small grid-2colresponsive">
+            {%- for post in collections.project | reverse -%}
+            <li>
+                <a href="{{post.url}}">
+                    <span class="project">
+                        <span class="project-imagecontainer">
+                            <img
+                                src="/assets/images/headerimages/{{post.data.headerImage}}.png"
+                                class="project-image"
+                                alt="{{post.data.title}} screenshot"
+                                border="0"
+                                width="600"
+                            />
+                        </span>
+                        <span class="project-namecontainer">
+                            <h3 class="heading heading-3 heading-highlight">{{post.data.title}}</h3>
+                        </span>
+                    </span>
+                </a>
+            </li>
+            {%- endfor -%}
         </ul>
         <div class="mix-centered">
             {{ buttonlink.buttonlink("My Projects", "/projects/") }}
