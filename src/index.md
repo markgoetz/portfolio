@@ -18,7 +18,7 @@ title: "Homepage"
             </h2>
             <div class="spacer"></div>
             <p class="txt">
-                I'm Mark Goetz, a front-end developer in New Jersey.  I've been designing and coding web interfaces for 15 years.
+                I'm Mark Goetz, a front-end developer in Philadelphia.  I've been designing and coding web interfaces for 15 years.
             </p>
             <div class="spacer"></div>
             <div class="spacer"></div>
