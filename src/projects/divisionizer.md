@@ -12,7 +12,7 @@ skills:
     - HTML 5
     - Webpack
 links:
-    - { url: "https://divisionizer.com", title: "Live site" }
+    - { url: "https://divisionizer.netlify.app", title: "Live site" }
     - { url: "https://github.com/markgoetz/reactionizer", title: "GitHub repository" }
 ---
 
