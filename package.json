@@ -23,6 +23,7 @@
     "build": "yarn clean && yarn build:sass && yarn build:eleventy"
   },
   "resolutions": {
-    "qs": "6.2.4"
+    "qs": "6.2.4",
+    "ws": "8.17.1"
   }
 }

@@ -2132,10 +2132,10 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
-qs@6.2.3:
-  version "6.2.3"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.2.3.tgz#1cfcb25c10a9b2b483053ff39f5dfc9233908cfe"
-  integrity sha512-AY4g8t3LMboim0t6XWFdz6J5OuJ1ZNYu54SXihS/OMpgyCqYmcAJnWqkNSOjSjWmq3xxy+GF9uWQI2lI/7tKIA==
+qs@6.2.3, qs@6.2.4:
+  version "6.2.4"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.2.4.tgz#d90821bb8537cecc140e6c34f54ec76e54b39b22"
+  integrity sha512-E57gmgKXqDda+qWTkUJgIwgJICK7zgMfqZZopTRKZ6mY9gzLlmJN9EpXNnDrTxXFlOM/a+I28kJkF/60rqgnYw==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -2884,15 +2884,10 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
-ws@~8.17.1:
+ws@8.17.1, ws@~8.17.1, ws@~8.2.3:
   version "8.17.1"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.1.tgz#9293da530bb548febc95371d90f9c878727d919b"
   integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
-
-ws@~8.2.3:
-  version "8.2.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.3.tgz#63a56456db1b04367d0b721a0b80cae6d8becbba"
-  integrity sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==
 
 xmlhttprequest-ssl@~2.0.0:
   version "2.0.0"
