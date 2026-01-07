@@ -21,5 +21,8 @@
     "build:sass": "sass src/scss/_main.scss _site/index.css --style=compressed",
     "start": "yarn clean && yarn build:sass && run-p start:eleventy start:sass",
     "build": "yarn clean && yarn build:sass && yarn build:eleventy"
+  },
+  "resolutions": {
+    "qs": "6.2.4"
   }
 }
