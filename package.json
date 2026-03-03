@@ -5,8 +5,7 @@
   "version": "0.1.0",
   "author": "Mark Goetz",
   "dependencies": {
-    "sass": "^1.54.8",
-    "sharp": "^0.34.5"
+    "sass": "^1.54.8"
   },
   "devDependencies": {
     "@11ty/eleventy": "3",
