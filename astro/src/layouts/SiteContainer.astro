@@ -1,0 +1,46 @@
+---
+import Header from "../components/Header.astro";
+---
+
+<div class="container">
+  <header>
+		<Header />
+	</header>
+  <main>
+    <slot />
+  </main>
+  <aside>
+
+  </aside>
+  <footer></footer>
+</div>
+
+<style>
+  .container {
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+      "header aside"
+      "main   aside"
+      "footer footer";
+    max-width: 65rem;
+    gap: 3rem;
+    grid-template-columns: 1fr 25rem;
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+</style>

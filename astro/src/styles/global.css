@@ -1,0 +1,7 @@
+a {
+  color: var(--color-secondary);
+}
+
+body {
+  font-size: 1.25rem;
+}
