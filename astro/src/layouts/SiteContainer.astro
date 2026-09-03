@@ -1,4 +1,5 @@
 ---
+import Aside from "../components/Aside.astro";
 import Header from "../components/Header.astro";
 ---
 
@@ -10,7 +11,7 @@ import Header from "../components/Header.astro";
     <slot />
   </main>
   <aside>
-
+    <Aside />
   </aside>
   <footer></footer>
 </div>
@@ -25,7 +26,7 @@ import Header from "../components/Header.astro";
       "footer footer";
     max-width: 65rem;
     gap: 4rem;
-    grid-template-columns: 1fr 25rem;
+    grid-template-columns: auto 22rem;
   }
 
   header {
