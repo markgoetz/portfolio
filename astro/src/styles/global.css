@@ -1,3 +1,25 @@
+:root {
+  --family-body: 'Atkinson Hyperlegible Next', sans-serif;
+  --family-heading: 'Zilla Slab', monospace;
+  --color-primary: #B3043B;
+  --color-secondary: #0B73B8;
+  --color-secondary-light: #f6fcff;
+  --color-tertiary: #6C7075;
+  --color-lightest: #bebfc1;
+  --color-body: #302327;
+}
+
+html,
+body {
+  margin: 1rem 0;
+  width: 100%;
+  height: 100%;
+  font-family: var(--family-body);
+  color: var(--color-body);
+  background-color: var(--color-secondary-light);
+  outline-color: var(--color-secondary);
+}
+
 a {
   color: var(--color-secondary);
   text-decoration: none;

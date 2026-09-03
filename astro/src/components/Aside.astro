@@ -6,7 +6,7 @@ import HeartLogo from '../assets/heart-logo.inline.svg';
   h2 {
     color: var(--color-secondary);
     font-family: var(--family-heading);
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 400;
     text-transform: lowercase;
     margin: 0 0 1rem;
@@ -15,11 +15,26 @@ import HeartLogo from '../assets/heart-logo.inline.svg';
 
   nav {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   li {
     list-style-type: none;
+    
+    &:not(:first-child)::before {
+      content: '';
+      display: inline-block;
+      height: 20px;
+      width: 2px;
+      background-color: var(--color-lightest);
+      position: relative;
+      left: -1rem;
+      top: 3px;
+    }
+  }
+
+  a {
+    text-transform: lowercase;
   }
 </style>
 
@@ -31,7 +46,7 @@ import HeartLogo from '../assets/heart-logo.inline.svg';
   <p>I combine technical knowledge with design sense and empathy to make excellent web experiences.</p>
 
   <nav>
-    <li><a href="">Email</a></li>
+    <li><a href="mailto:mark@markgoetz.dev">Email</a></li>
     <li><a href="">Github</a></li>
     <li><a href="">LinkedIn</a></li>
   </nav>
