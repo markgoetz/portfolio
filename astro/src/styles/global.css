@@ -20,6 +20,13 @@ body {
   outline-color: var(--color-secondary);
 }
 
+body {
+  background-image: url('/heart-logo.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom 2rem right 2rem;
+}
+
 a {
   color: var(--color-secondary);
   text-decoration: none;
