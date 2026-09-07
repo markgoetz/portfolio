@@ -7,6 +7,10 @@
     text-transform: lowercase;
     line-height: 1;
     margin: -1rem 0 0;
+
+    a {
+      color: var(--color-primary);
+    }
   }
   
   h2 {
@@ -17,21 +21,6 @@
     text-transform: lowercase;
     margin: 0 0 1rem;
   }
-  
-  nav {
-    font-family: var(--family-heading);
-    font-size: 2rem;
-    text-transform: lowercase;
-    margin-top: .5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-  }
-
-  li {
-    list-style-type: none;
-  }
 
   .header {
     display: flex;
@@ -41,10 +30,6 @@
 </style>
 
 <div class="header">
-  <h1>Mark Goetz</h1>
+  <h1><a href="/">Mark Goetz</a></h1>
   <h2>Principal Front-End Developer</h2>
-  <nav>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/about">What I can do</a></li>
-  </nav>
 </div>
