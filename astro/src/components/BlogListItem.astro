@@ -1,14 +1,18 @@
 ---
+import { date } from 'astro:schema';
 import '../styles/blog.css'
 import PublishDate from './PublishDate';
+const { post } = Astro.props;
 ---
 
 <article class="layout">
-  <PublishDate date="2026-03-14" />
+  <PublishDate date={post.frontmatter.published} />
   <div class="titleContainer">
-    <h2 class="heading-2"><a href="/">No, Your Code Is Not A Compiled Binary</a></h2>
+    <h2 class="heading-2">
+      <a href={post.url}>{post.frontmatter.title}</a>
+    </h2>
   </div>
   <div class="content">
-    <p>Because I'm kind of sick of hearing this argument.</p>
+    <p>{post.frontmatter.lede}</p>
   </div>
 </article>

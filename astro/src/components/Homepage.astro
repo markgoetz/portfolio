@@ -1,5 +1,6 @@
 ---
 import BlogListItem from "./BlogListItem.astro";
+const allPosts = Object.values(import.meta.glob('../pages/posts/*.md', { eager: true }));
 ---
 
 <style>
@@ -8,26 +9,12 @@ import BlogListItem from "./BlogListItem.astro";
 		margin: 0;
 		padding: 0;
 	}
-
+ 
 	li + li {
 		margin-top: 3rem;
 	}
 </style>
 
 <ol>
-	<li>
-		<BlogListItem />
-	</li>
-
-	<li>
-
-	</li>
-
-	<li>
-		<article>
-			<div class="dateContainer"><time datetime="2026-09-06">06-Sep 2026</time></div>
-			<h2><a href="/">No, Your Code Is Not A Compiled Binary</a></h2>
-			<p>Because I'm kind of sick of hearing this argument.</p>
-		</article>
-	</li>
+	{allPosts.toSorted((a, b) => b.frontmatter.published.localeCompare(a.frontmatter.published)).map((post) => <li><BlogListItem post={post} /></li>)}
 </ol>
