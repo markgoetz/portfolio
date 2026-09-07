@@ -2,13 +2,12 @@
 import Template from '../layouts/Template.astro';
 const { frontmatter } = Astro.props;
 import '../styles/blog.css';
+import PublishDate from '../components/PublishDate';
 ---
 
 <Template>
   <article class="layout">
-    <div class="dateContainer">
-      <time datetime={frontmatter.published}>{frontmatter.published}</time>
-    </div>
+    <PublishDate date={frontmatter.published} />
     <div class="titleContainer">
       <h1 class="heading-1">{frontmatter.title}</h1>
       <h2 class="heading-2">{frontmatter.lede}</h2>

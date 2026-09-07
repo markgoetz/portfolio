@@ -1,3 +1,7 @@
+---
+import BlogListItem from "./BlogListItem.astro";
+---
+
 <style>
 	ol {
 		list-style-type: none;
@@ -9,61 +13,17 @@
 		margin-top: 3rem;
 	}
 
-	article {
-		display: grid;
-		gap: .5rem 1rem;
-		grid-template-columns: 5rem 1fr;
-		grid-template-areas: 
-			"date headline"
-			"date lede";
-
-		& .dateContainer {
-			grid-area: date;
-			height: 5rem;
-			background-color: var(--color-tertiary);
-			display: flex;
-			align-items: center;
-			justify-content: center;
-
-			& time {
-				font-family: var(--family-heading);
-				font-size: 1.25rem;
-				color: var(--color-secondary-light);
-				text-align: center;
-				font-weight: 400;
-			}
-		}
-
-		& h2 {
-			grid-area: headline;
-			margin: 0;
-			font-family: var(--family-heading);
-			font-size: 1.75rem;
-			font-weight: 600;
-		}
-
-		& p {
-			grid-area: lede;
-			margin: 0;
-		}
+	
 	}
 
 </style>
 <ol>
 	<li>
-		<article>
-			<div class="dateContainer"><time datetime="2026-09-06">06-Sep 2026</time></div>
-			<h2><a href="/">No, Your Code Is Not A Compiled Binary</a></h2>
-			<p>Because I'm kind of sick of hearing this argument.</p>
-		</article>
+		<BlogListItem />
 	</li>
 
 	<li>
-		<article>
-			<div class="dateContainer"><time datetime="2026-09-06">06-Sep 2026</time></div>
-			<h2><a href="/">No, Your Code Is Not A Compiled Binary</a></h2>
-			<p>Because I'm kind of sick of hearing this argument.</p>
-		</article>
+
 	</li>
 
 	<li>
