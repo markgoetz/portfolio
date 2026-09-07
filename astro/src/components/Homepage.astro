@@ -1,21 +1,30 @@
 ---
 import BlogListItem from "./BlogListItem.astro";
-const allPosts = Object.values(import.meta.glob('../pages/posts/*.md', { eager: true }));
-const sortedPosts = allPosts.toSorted((a, b) => b.frontmatter.published.localeCompare(a.frontmatter.published));
+import getPosts from "../utils/getPosts";
+const allPosts = getPosts();
+const sortedPosts = allPosts.toSorted((a, b) =>
+  b.frontmatter.published.localeCompare(a.frontmatter.published),
+);
 ---
 
 <style>
-	ol {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
- 
-	li + li {
-		margin-top: 3rem;
-	}
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li + li {
+    margin-top: 3rem;
+  }
 </style>
 
 <ol>
-	{sortedPosts.map((post) => <li><BlogListItem post={post} /></li>)}
+  {
+    sortedPosts.map((post) => (
+      <li>
+        <BlogListItem post={post} />
+      </li>
+    ))
+  }
 </ol>

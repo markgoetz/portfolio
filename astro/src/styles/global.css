@@ -1,10 +1,10 @@
 :root {
-  --family-body: 'Atkinson Hyperlegible Next', sans-serif;
-  --family-heading: 'Zilla Slab', monospace;
-  --color-primary: #B3043B;
-  --color-secondary: #0B73B8;
+  --family-body: "Atkinson Hyperlegible Next", sans-serif;
+  --family-heading: "Zilla Slab", monospace;
+  --color-primary: #b3043b;
+  --color-secondary: #0b73b8;
   --color-secondary-light: #f6fcff;
-  --color-tertiary: #6C7075;
+  --color-tertiary: #6c7075;
   --color-lightest: #bebfc1;
   --color-body: #302327;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 body {
-  background-image: url('/heart-logo.png');
+  background-image: url("/heart-logo.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: bottom 2rem right 2rem;
@@ -31,7 +31,11 @@ a {
   color: var(--color-secondary);
   text-decoration: none;
   background-image:
-    linear-gradient(in oklch to left, var(--color-primary), var(--color-secondary)),
+    linear-gradient(
+      in oklch to left,
+      var(--color-primary),
+      var(--color-secondary)
+    ),
     linear-gradient(var(--color-lightest), var(--color-lightest));
   background-size:
     0% 2px,
@@ -42,17 +46,24 @@ a {
     0 90%;
   background-color: transparent;
 
-  transition: background-size .200s cubic-bezier(0.64, 0, 0.78, 0), background-color .1s ease-in;
+  transition:
+    background-size 0.2s cubic-bezier(0.64, 0, 0.78, 0),
+    background-color 0.1s ease-in;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   background-size:
     100% 2px,
     100% 2px;
   background-image:
-    linear-gradient(in oklch to left, var(--color-primary), var(--color-secondary)),
+    linear-gradient(
+      in oklch to left,
+      var(--color-primary),
+      var(--color-secondary)
+    ),
     linear-gradient(var(--color-lightest), var(--color-lightest));
-  background-color: rgb(from var(--color-secondary) r g b /.1);
+  background-color: rgb(from var(--color-secondary) r g b / 0.1);
 }
 
 body {
