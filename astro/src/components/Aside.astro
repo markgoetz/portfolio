@@ -12,20 +12,20 @@
   nav {
     display: flex;
     gap: 2rem;
-  }
 
-  li {
-    list-style-type: none;
-    
-    &:not(:first-child)::before {
-      content: '';
-      display: inline-block;
-      height: 20px;
-      width: 2px;
-      background-color: var(--color-lightest);
-      position: relative;
-      left: -1rem;
-      top: 3px;
+    li {
+      list-style-type: none;
+      
+      &:not(:first-child)::before {
+        content: '';
+        display: inline-block;
+        height: 20px;
+        width: 2px;
+        background-color: var(--color-lightest);
+        position: relative;
+        left: -1rem;
+        top: 3px;
+      }
     }
   }
 
@@ -41,7 +41,18 @@
   <h2>Designy outside,<br/>mathy inside</h2>
   <p>I combine technical knowledge with design sense and empathy to make excellent web experiences.</p>
 
-  <p><a href="/about">Learn more about what I can do for you</a></p>
+  <h2>What I can do for you</h2>
+  <p>I'm an expert in technologies like:</p>
+  <ul>
+    <li>React</li>
+    <li>NextJS</li>
+    <li>Node</li>
+    <li>CSS</li>
+    <li>Theming (MUI, Mantine, etc.)</li>
+    <li>Accessible HTML</li>
+  </ul>
+
+  <p><a href="/projects">See projects I've worked on</a></p>
 
   <h2>Contact Me</h2>
   <nav>
