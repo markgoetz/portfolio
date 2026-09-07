@@ -5,7 +5,7 @@ import '../styles/blog.css';
 import PublishDate from '../components/PublishDate';
 ---
 
-<Template>
+<Template title={frontmatter.title}>
   <article class="layout">
     <PublishDate date={frontmatter.published} />
     <div class="titleContainer">
