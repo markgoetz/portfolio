@@ -25,19 +25,21 @@
 
   & .titleContainer {
     grid-area: headline;
-    margin: 0;
   }
 
   & .heading-1 {
     font-family: var(--family-heading);
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     font-weight: 600;
+    margin: 0 0 1rem;
+    line-height: 1;
   }
 
   & .heading-2 {
     font-family: var(--family-heading);
     font-size: 1.75rem;
     font-weight: 600;
+    margin: 0;
   }
 
   & .content {

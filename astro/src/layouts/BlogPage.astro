@@ -4,11 +4,14 @@ const { frontmatter } = Astro.props;
 import "../styles/blog.css";
 import PublishDate from "../components/PublishDate";
 ---
+<style>
+  .homeLink {
+    margin-bottom: 2rem;
+  }
+</style>
 
 <Template title={frontmatter.title}>
-  <p>
-    <a href="/">Go back</a>
-  </p>
+  <div class="homeLink"><a href="/">Home</a></div>
   <article class="layout">
     <PublishDate date={frontmatter.published} />
     <div class="titleContainer">
