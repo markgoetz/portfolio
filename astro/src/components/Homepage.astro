@@ -1,10 +1,7 @@
 ---
-import BlogListItem from "./BlogListItem.astro";
+import BlogPreview from "./BlogPreview.astro";
 import getPosts from "../utils/getPosts";
-const allPosts = getPosts();
-const sortedPosts = allPosts.toSorted((a, b) =>
-  b.frontmatter.published.localeCompare(a.frontmatter.published),
-);
+const homepagePosts = getPosts().slice(0, 3);
 ---
 
 <style>
@@ -17,14 +14,37 @@ const sortedPosts = allPosts.toSorted((a, b) =>
   li + li {
     margin-top: 3rem;
   }
+
+	.layout {
+		display: flex;
+		flex-direction: column;
+		gap: 4rem;
+	}
+
+	.center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.moreLink {
+		font-size: 1.5rem;
+		text-transform: lowercase;
+	}
 </style>
 
-<ol>
-  {
-    sortedPosts.map((post) => (
-      <li>
-        <BlogListItem post={post} />
+<div class="layout">
+
+	<ol>
+		{
+			homepagePosts.map((post) => (
+				<li>
+        <BlogPreview post={post} />
       </li>
     ))
   }
 </ol>
+	<div class="center">
+		<a href="/posts" class="moreLink">More posts</a>
+	</div>
+</div>

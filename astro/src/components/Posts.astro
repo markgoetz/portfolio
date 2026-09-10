@@ -1,0 +1,26 @@
+---
+import BlogPreview from "./BlogPreview.astro";
+import getPosts from "../utils/getPosts";
+const posts = getPosts();
+---
+<style>
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li + li {
+    margin-top: 3rem;
+  }
+</style>
+
+<ol>
+  {
+    posts.map((post) => (
+      <li>
+        <BlogPreview post={post} />
+      </li>
+    ))
+  }
+</ol>
