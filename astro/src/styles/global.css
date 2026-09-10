@@ -2,8 +2,9 @@
   --family-body: "Atkinson Hyperlegible Next", sans-serif;
   --family-heading: "Zilla Slab", monospace;
   --color-primary: #b3043b;
-  --color-secondary: #0b73b8;
-  --color-secondary-light: #f6fcff;
+  --color-secondary: #0499AA;
+  --color-secondary-light: #F9FFFE;
+  --color-link: #0b73b8;
   --color-tertiary: #6c7075;
   --color-lightest: #bebfc1;
   --color-body: #302327;
@@ -28,7 +29,7 @@ body {
 }
 
 a {
-  color: var(--color-secondary);
+  color: var(--color-link);
   text-decoration: none;
   background-image:
     linear-gradient(
@@ -63,7 +64,7 @@ a:focus {
       var(--color-secondary)
     ),
     linear-gradient(var(--color-lightest), var(--color-lightest));
-  background-color: rgb(from var(--color-secondary) r g b / 0.1);
+  background-color: rgb(from var(--color-link) r g b / 0.1);
 }
 
 body {
