@@ -15,36 +15,35 @@ const homepagePosts = getPosts().slice(0, 3);
     margin-top: 3rem;
   }
 
-	.layout {
-		display: flex;
-		flex-direction: column;
-		gap: 4rem;
-	}
+  .layout {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
 
-	.center {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-	.moreLink {
-		font-size: 1.5rem;
-		text-transform: lowercase;
-	}
+  .moreLink {
+    font-size: 1.5rem;
+    text-transform: lowercase;
+  }
 </style>
 
 <div class="layout">
-
-	<ol>
-		{
-			homepagePosts.map((post) => (
-				<li>
-        <BlogPreview post={post} />
-      </li>
-    ))
-  }
-</ol>
-	<div class="center">
-		<a href="/posts" class="moreLink">More posts</a>
-	</div>
+  <ol>
+    {
+      homepagePosts.map((post) => (
+        <li>
+          <BlogPreview post={post} />
+        </li>
+      ))
+    }
+  </ol>
+  <div class="center">
+    <a href="/posts" class="moreLink">More posts</a>
+  </div>
 </div>
