@@ -16,11 +16,26 @@ export default defineConfig([
   {
     files: ["**/*.{jsx,tsx}"],
     plugins: { react: pluginReact },
-    extends: [pluginReact.configs.flat.recommended],
+    extends: [
+      pluginReact.configs.flat.recommended,
+      pluginReact.configs.flat["jsx-runtime"],
+    ],
   },
   {
     files: ["**/*.astro"],
     plugins: { astro: eslintPluginAstro },
     extends: ["astro/flat/jsx-a11y-recommended"],
+  },
+  {
+    languageOptions: {
+      ...pluginReact.configs.flat.recommended.languageOptions,
+    },
+  },
+  {
+    settings: {
+      react: {
+        version: "19",
+      },
+    },
   },
 ]);

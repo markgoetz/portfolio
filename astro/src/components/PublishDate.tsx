@@ -1,5 +1,4 @@
 import { format, parseISO } from "date-fns";
-import React from "react";
 
 export type PublishDateProps = {
   date: string;
