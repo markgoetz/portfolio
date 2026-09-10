@@ -64,7 +64,7 @@ a:focus {
       var(--color-secondary)
     ),
     linear-gradient(var(--color-lightest), var(--color-lightest));
-  background-color: rgb(from var(--color-link) r g b / 0.1);
+  background-color: rgb(from var(--color-secondary) r g b / 0.1);
 }
 
 body {
