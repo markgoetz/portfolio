@@ -1,13 +1,41 @@
 ---
 import Template from "../layouts/Template.astro";
-const { frontmatter } = Astro.props;
 import "../styles/blog.css";
 import PublishDate from "../components/PublishDate";
+import getPosts from "../utils/getPosts";
+import BlogPreview from "../components/BlogPreview.astro";
+
+const { frontmatter } = Astro.props;
+const allPosts = getPosts();
+const index = allPosts.findIndex(
+  (p) => p.frontmatter.title === frontmatter.title,
+);
+
+const nextPost = index > 0 ? allPosts[index - 1] : null;
+const previousPost =
+  index !== -1 && index < allPosts.length - 1 ? allPosts[index + 1] : null;
 ---
 
 <style>
   .homeLink {
     margin-bottom: 2rem;
+  }
+
+  .previousNext {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .previousNextLabel {
+    font-family: var(--family-heading);
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  hr {
+    border: solid 1px var(--color-tertiary);
+    margin: 2rem 0;
   }
 </style>
 
@@ -23,4 +51,15 @@ import PublishDate from "../components/PublishDate";
       <slot />
     </div>
   </article>
+  <hr />
+  <nav class="previousNext">
+    <div>
+      <div class="previousNextLabel">Previous Post:</div>
+      {previousPost ? <BlogPreview post={previousPost} /> : "No previous post"}
+    </div>
+    <div>
+      <div class="previousNextLabel">Next Post:</div>
+      {nextPost ? <BlogPreview post={nextPost} /> : "No next post"}
+    </div>
+  </nav>
 </Template>
