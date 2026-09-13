@@ -88,3 +88,11 @@ body {
   margin: 0;
   color: var(--color-secondary);
 }
+
+.heading-3 {
+  font-family: var(--family-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--color-tertiary);
+}
