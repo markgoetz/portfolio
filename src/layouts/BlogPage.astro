@@ -1,9 +1,9 @@
 ---
 import Template from "./Template.astro";
 import "../styles/blog.css";
-import PublishDate from "../components/PublishDate";
+import PublishDate from "../components/shared/PublishDate";
 import getPosts from "../utils/getPosts";
-import BlogPreview from "../components/BlogPreview.astro";
+import BlogPreview from "../components/shared/BlogPreview.astro";
 
 const { frontmatter } = Astro.props;
 const allPosts = getPosts();
@@ -54,12 +54,12 @@ const previousPost =
   <hr />
   <nav class="previousNext">
     <div>
-      <div class="previousNextLabel">Previous Post:</div>
-      {previousPost ? <BlogPreview post={previousPost} /> : "No previous post"}
-    </div>
-    <div>
       <div class="previousNextLabel">Next Post:</div>
       {nextPost ? <BlogPreview post={nextPost} /> : "No next post"}
+    </div>
+    <div>
+      <div class="previousNextLabel">Previous Post:</div>
+      {previousPost ? <BlogPreview post={previousPost} /> : "No previous post"}
     </div>
   </nav>
 </Template>
