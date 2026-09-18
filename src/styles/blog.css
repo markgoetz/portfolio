@@ -1,34 +1,24 @@
 .blogLayout {
-  display: grid;
-  gap: 0.5rem 1rem;
-  grid-template-columns: 5rem 1fr;
-  grid-template-areas:
-    "date headline"
-    "date lede";
+  display: flex;
+  flex-direction: column;
 
   & .dateContainer {
-    grid-area: date;
-    height: 5rem;
-    background-color: var(--color-tertiary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
     & time {
       font-family: var(--family-heading);
       font-size: 1.25rem;
-      color: var(--color-secondary-light);
+      color: var(--color-tertiary);
       text-align: center;
       font-weight: 400;
     }
   }
 
   & .titleContainer {
-    grid-area: headline;
+    margin-bottom: .5rem;
   }
 
   & .content {
-    grid-area: lede;
+    
     margin: 0;
   }
 }

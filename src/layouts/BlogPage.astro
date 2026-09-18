@@ -23,7 +23,7 @@ const previousPost =
 
   .previousNext {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
 
@@ -54,12 +54,12 @@ const previousPost =
   <hr />
   <nav class="previousNext">
     <div>
-      <div class="previousNextLabel">Next Post:</div>
-      {nextPost ? <BlogPreview post={nextPost} /> : "No next post"}
-    </div>
-    <div>
       <div class="previousNextLabel">Previous Post:</div>
       {previousPost ? <BlogPreview post={previousPost} /> : "No previous post"}
+    </div>
+    <div>
+      <div class="previousNextLabel">Next Post:</div>
+      {nextPost ? <BlogPreview post={nextPost} /> : "No next post"}
     </div>
   </nav>
 </Template>
