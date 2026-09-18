@@ -4,6 +4,7 @@ import "../styles/blog.css";
 import PublishDate from "../components/shared/PublishDate";
 import getPosts from "../utils/getPosts";
 import BlogPreview from "../components/shared/BlogPreview.astro";
+import MarkdownContent from "./MarkdownContent.astro";
 
 const { frontmatter } = Astro.props;
 const allPosts = getPosts();
@@ -34,7 +35,7 @@ const previousPost =
   }
 
   hr {
-    border: solid 1px var(--color-tertiary);
+    border: solid 1px var(--color-lightest);
     margin: 2rem 0;
   }
 </style>
@@ -48,7 +49,9 @@ const previousPost =
       <h2 class="heading-2">{frontmatter.lede}</h2>
     </div>
     <div class="content">
-      <slot />
+      <MarkdownContent>
+        <slot />
+      </MarkdownContent>
     </div>
   </article>
   <hr />
