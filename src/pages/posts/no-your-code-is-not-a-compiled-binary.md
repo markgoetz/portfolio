@@ -7,8 +7,6 @@ layout: "../../layouts/BlogPage.astro"
 
 I'm sure you've heard this one before.
 
-
-
 ## But, but, compilers have bugs too!
 
 Yeah, no.
