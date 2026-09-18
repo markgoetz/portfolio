@@ -3,7 +3,6 @@
   flex-direction: column;
 
   & .dateContainer {
-
     & time {
       font-family: var(--family-heading);
       font-size: 1.25rem;
@@ -14,11 +13,10 @@
   }
 
   & .titleContainer {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   & .content {
-    
     margin: 0;
   }
 }
