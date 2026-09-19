@@ -1,3 +1,4 @@
 yarn prettier --write
 yarn lint --fix
 yarn typecheck
+git add .
