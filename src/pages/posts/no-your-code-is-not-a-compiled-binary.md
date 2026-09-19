@@ -39,6 +39,7 @@ While I'm here, let me dunk on this analogy a little bit more.
 
 - GBDK did not free me from the hardware constraints. While it's true that the Game Boy is far, _far_ less powerful than computers of today, computers today are not limitless. CPU speed and download size can be a concern, especially on less powerful mobile devices.
 - My code was written in code, not in English. I want to write about this in the future, but I find code to be more efficient and precise than English.
+- Coding keeps me responsible for what ships. If I were to use an LLM for something, and it produces something buggy or even just overengineered, and I just ship it because it's a compiled binary, my name is still on the commit.
 - I _can_ write assembly if I want to! Maybe you have a case where you absolutely need to make something performant, or maybe you need access to low-level functionality (such as the audio driver I used). Go ahead and write inline assembly!
 - Going off the above, I once even looked directly at the compiled binary to confirm an issue with my build process. And my eyes didn't even catch fire!
 
