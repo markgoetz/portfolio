@@ -16,7 +16,7 @@ In case you can't see the video, it's a segment from the Disney movie The Empero
 > - Yzma: "Pull the lever, Kronk!"
 > - _Kronk pulls a lever, dropping Yzma into a pit_
 > - Yzma: "Wrong lever!"
-> - _Yzma appears a bit with an alligator holding on to her_
+> - _Yzma appears a bit later with an alligator holding on to her_
 > - Yzma: "Why do we even **have** that lever?"
 
 It doesn't matter what good, productive, powerful thing a tool allows you to do; if it has an easily pushed lever that drops you into the alligator pit, _it's not a good tool_.
