@@ -11,6 +11,14 @@ In other words, how easy is it to screw up and how bad is it if you do?
 
 In common parlance, you might hear this as Murphy's Law, Sod's Law, or Finagle's Law. But I'd like to suggest an alternative: [Kronk's Lever](https://www.youtube.com/watch?v=ZaWu0YPmDJo).
 
+In case you can't see the video, it's a segment from the Disney movie The Emperor's New Groove, and it goes something like this:
+
+> Yzma: "Pull the lever, Kronk!"
+> _Kronk pulls a lever, dropping Yzma into a pit_
+> Yzma: "Wrong lever!"
+> _Yzma appears a bit with an alligator holding on to her_
+> Yzma: "Why do we even **have** that lever?"
+
 It doesn't matter what good, productive, powerful thing a tool allows you to do; if it has an easily pushed lever that drops you into the alligator pit, _it's not a good tool_.
 
 Some good examples of this, in computer programs and otherwise, might look like:
