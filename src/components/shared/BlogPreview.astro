@@ -1,0 +1,17 @@
+---
+import "../../styles/blog.css";
+import PublishDate from "./PublishDate";
+const { post } = Astro.props;
+---
+
+<article class="blogLayout">
+  <PublishDate date={post.frontmatter.published} />
+  <div class="titleContainer">
+    <h2 class="heading-2">
+      <a href={post.url}>{post.frontmatter.title}</a>
+    </h2>
+  </div>
+  <p class="content">
+    {post.frontmatter.lede}
+  </p>
+</article>

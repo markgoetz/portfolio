@@ -1,0 +1,68 @@
+---
+import Template from "./Template.astro";
+import "../styles/blog.css";
+import PublishDate from "../components/shared/PublishDate";
+import getPosts from "../utils/getPosts";
+import BlogPreview from "../components/shared/BlogPreview.astro";
+import MarkdownContent from "./MarkdownContent.astro";
+
+const { frontmatter } = Astro.props;
+const allPosts = getPosts();
+const index = allPosts.findIndex(
+  (p) => p.frontmatter.title === frontmatter.title,
+);
+
+const nextPost = index > 0 ? allPosts[index - 1] : null;
+const previousPost =
+  index !== -1 && index < allPosts.length - 1 ? allPosts[index + 1] : null;
+---
+
+<style>
+  .homeLink {
+    margin-bottom: 2rem;
+  }
+
+  .previousNext {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .previousNextLabel {
+    font-family: var(--family-heading);
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  hr {
+    border: solid 1px var(--color-lightest);
+    margin: 2rem 0;
+  }
+</style>
+
+<Template title={frontmatter.title}>
+  <div class="homeLink"><a href="/posts">All Posts</a></div>
+  <article class="blogLayout">
+    <PublishDate date={frontmatter.published} />
+    <div class="titleContainer">
+      <h1 class="heading-1">{frontmatter.title}</h1>
+      <h2 class="heading-2">{frontmatter.lede}</h2>
+    </div>
+    <div class="content">
+      <MarkdownContent>
+        <slot />
+      </MarkdownContent>
+    </div>
+  </article>
+  <hr />
+  <nav class="previousNext">
+    <div>
+      <div class="previousNextLabel">Previous Post:</div>
+      {previousPost ? <BlogPreview post={previousPost} /> : "No previous post"}
+    </div>
+    <div>
+      <div class="previousNextLabel">Next Post:</div>
+      {nextPost ? <BlogPreview post={nextPost} /> : "No next post"}
+    </div>
+  </nav>
+</Template>

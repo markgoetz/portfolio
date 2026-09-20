@@ -1,0 +1,40 @@
+<style>
+  .markdown {
+    & h1 {
+      font-family: var(--family-heading);
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin: 0 0 1rem;
+      line-height: 1;
+      color: var(--color-primary);
+    }
+
+    & h2 {
+      font-family: var(--family-heading);
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin: 0;
+      color: var(--color-secondary);
+    }
+
+    & h3 {
+      font-family: var(--family-heading);
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 0;
+      color: var(--color-tertiary);
+    }
+
+    & blockquote {
+      border-left: solid 4px var(--color-lightest);
+      font-style: italic;
+      padding-left: 1rem;
+      margin-left: 1rem;
+      color: var(--color-tertiary);
+    }
+  }
+</style>
+
+<div class="markdown">
+  <slot />
+</div>

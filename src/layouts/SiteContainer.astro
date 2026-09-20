@@ -1,0 +1,51 @@
+---
+import Aside from "../components/shared/Aside.astro";
+import Footer from "../components/shared/Footer.astro";
+import Header from "../components/shared/Header.astro";
+---
+
+<div class="container">
+  <header>
+    <Header />
+  </header>
+  <main>
+    <slot />
+  </main>
+  <aside>
+    <Aside />
+  </aside>
+  <footer>
+    <Footer />
+  </footer>
+</div>
+
+<style>
+  .container {
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+      "header aside"
+      "main   aside"
+      "footer footer";
+    max-width: 72rem;
+    gap: 1rem 5rem;
+    grid-template-columns: auto 22rem;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+</style>

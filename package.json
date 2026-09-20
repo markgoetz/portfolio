@@ -1,29 +1,49 @@
 {
-  "name": "portfolio",
-  "private": true,
-  "description": "My personal portfilio",
-  "version": "0.1.0",
-  "author": "Mark Goetz",
+  "name": "astro",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint . --fix",
+    "prettier": "prettier . --write",
+    "typecheck": "tsc",
+    "prepare": "husky"
+  },
   "dependencies": {
-    "sass": "^1.54.8"
+    "@astrojs/netlify": "^8.2.6",
+    "@astrojs/react": "^6.0.5",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "astro": "^7.2.9",
+    "date-fns": "^4.4.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "allowScripts": {
+    "esbuild": true
   },
   "devDependencies": {
-    "@11ty/eleventy": "3",
-    "@11ty/eleventy-img": "^2.0.1",
-    "npm-run-all": "^4.1.5"
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-astro": "^3.1.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.6.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.12.0",
+    "husky": "^9.1.7",
+    "prettier": "3.9.6",
+    "prettier-plugin-astro": "0.14.1",
+    "typescript": "6",
+    "typescript-eslint": "^8.70.0"
   },
-  "license": "MIT",
-  "scripts": {
-    "clean": "rm -rf ./_site",
-    "start:eleventy": "eleventy --input=src --serve",
-    "build:eleventy": "eleventy --input=src",
-    "start:sass": "sass src/scss/_main.scss _site/index.css --watch",
-    "build:sass": "sass src/scss/_main.scss _site/index.css --style=compressed",
-    "start": "yarn clean && yarn build:sass && run-p start:eleventy start:sass",
-    "build": "yarn clean && yarn build:sass && yarn build:eleventy"
-  },
-  "resolutions": {
-    "qs": "6.2.4",
-    "ws": "8.17.1"
-  }
+  "packageManager": "yarn@4.18.0"
 }

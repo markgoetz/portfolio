@@ -1,0 +1,69 @@
+<style>
+  h2 {
+    color: var(--color-secondary);
+    font-family: var(--family-heading);
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-transform: lowercase;
+    margin: 0 0 1rem;
+    line-height: 1;
+  }
+
+  nav {
+    display: flex;
+    gap: 2rem;
+
+    li {
+      list-style-type: none;
+
+      &:not(:first-child)::before {
+        content: "";
+        display: inline-block;
+        height: 20px;
+        width: 2px;
+        background-color: var(--color-lightest);
+        position: relative;
+        left: -1rem;
+        top: 3px;
+      }
+    }
+  }
+
+  a {
+    text-transform: lowercase;
+  }
+</style>
+
+<div class="aside">
+  <h2>Hello!</h2>
+  <p>
+    I'm Mark Goetz, a principal front-end developer in Philadelphia. I've been
+    developing and designing web interfaces for 20 years.
+  </p>
+
+  <h2>Designy outside,<br />mathy inside</h2>
+  <p>
+    I combine technical knowledge with design sense and empathy to make
+    excellent web experiences.
+  </p>
+
+  <h2>What I can do for you</h2>
+  <p>I'm an expert in technologies like:</p>
+  <ul>
+    <li>React</li>
+    <li>NextJS</li>
+    <li>Node</li>
+    <li>CSS</li>
+    <li>Theming (MUI, Mantine, etc.)</li>
+    <li>Accessible HTML</li>
+  </ul>
+
+  <p><a href="/about-me">About me and my projects</a></p>
+
+  <h2>Contact Me</h2>
+  <nav>
+    <li><a href="mailto:mark@markgoetz.dev">Email</a></li>
+    <li><a href="https://github.com/markgoetz">Github</a></li>
+    <li><a href="https://www.linkedin.com/in/markgoetz/">LinkedIn</a></li>
+  </nav>
+</div>

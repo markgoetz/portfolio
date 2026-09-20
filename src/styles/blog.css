@@ -1,0 +1,22 @@
+.blogLayout {
+  display: flex;
+  flex-direction: column;
+
+  & .dateContainer {
+    & time {
+      font-family: var(--family-heading);
+      font-size: 1.25rem;
+      color: var(--color-tertiary);
+      text-align: center;
+      font-weight: 400;
+    }
+  }
+
+  & .titleContainer {
+    margin-bottom: 0.5rem;
+  }
+
+  & .content {
+    margin: 0;
+  }
+}
