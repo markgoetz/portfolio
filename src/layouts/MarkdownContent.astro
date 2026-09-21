@@ -28,9 +28,14 @@
     & blockquote {
       border-left: solid 4px var(--color-lightest);
       font-style: italic;
-      padding-left: 1rem;
-      margin-left: 1rem;
       color: var(--color-tertiary);
+      padding-left: 0.75rem;
+
+      margin-left: -0.75rem;
+      @media (min-width: 600px) {
+        padding-left: 1rem;
+        margin-left: 1rem;
+      }
     }
   }
 </style>

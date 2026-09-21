@@ -2,12 +2,16 @@
   .title {
     color: var(--color-primary);
     font-family: var(--family-heading);
-    font-size: 3.75rem;
     font-weight: 600;
     text-transform: lowercase;
-    line-height: 1;
+    line-height: 1.2;
     margin: -1rem 0 0;
+    font-size: 3rem;
 
+    @media (min-width: 600px) {
+      line-height: 1;
+      font-size: 3.75rem;
+    }
     a {
       color: var(--color-primary);
     }
@@ -16,10 +20,18 @@
   .subtitle {
     color: var(--color-tertiary);
     font-family: var(--family-heading);
-    font-size: 2.625rem;
     font-weight: 400;
     text-transform: lowercase;
-    margin: 0 0 1rem;
+    margin: 0 auto 1rem;
+    text-align: center;
+
+    font-size: 1.75rem;
+    line-height: 1.2;
+
+    @media (min-width: 600px) {
+      font-size: 2.625rem;
+      line-height: unset;
+    }
   }
 
   .header {
