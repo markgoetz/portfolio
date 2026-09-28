@@ -1,6 +1,6 @@
 ---
 title: In Praise of Low Fidelity
-lede: Why it's okay to be a bit sketchy sometimes
+description: Why it's okay to be a bit sketchy sometimes
 published: 2026-09-27
 layout: "../../layouts/BlogPage.astro"
 ---

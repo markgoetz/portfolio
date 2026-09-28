@@ -1,6 +1,6 @@
 ---
 title: On Perfection and Acceptance
-lede: How to look at your art with love
+description: How to look at your art with love
 published: 2026-09-17
 layout: "../../layouts/BlogPage.astro"
 ---

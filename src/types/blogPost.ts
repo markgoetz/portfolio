@@ -2,7 +2,7 @@ export type BlogPost = {
   url: string;
   frontmatter: {
     title: string;
-    lede: string;
+    description: string;
     published: string;
   };
 };

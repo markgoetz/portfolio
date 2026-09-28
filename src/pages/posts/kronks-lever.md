@@ -1,6 +1,6 @@
 ---
 title: Kronk's Lever
-lede: Why do we even have that lever?
+description: Why do we even have that lever?
 published: 2026-09-20
 layout: "../../layouts/BlogPage.astro"
 ---

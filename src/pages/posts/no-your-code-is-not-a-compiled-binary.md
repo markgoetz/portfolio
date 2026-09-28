@@ -1,5 +1,5 @@
 ---
-lede: My least favorite type of analogy
+description: My least favorite type of analogy
 published: 2026-09-19
 title: No, Your Code is not a Compiled Binary
 layout: "../../layouts/BlogPage.astro"

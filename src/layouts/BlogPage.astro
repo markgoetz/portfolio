@@ -45,13 +45,13 @@ const previousPost =
   }
 </style>
 
-<Template title={frontmatter.title}>
+<Template title={frontmatter.title} description={frontmatter.description}>
   <div class="homeLink"><a href="/posts">All Posts</a></div>
   <article class="blogLayout">
     <PublishDate date={frontmatter.published} />
     <div class="titleContainer">
       <h1 class="heading-1">{frontmatter.title}</h1>
-      <h2 class="heading-2">{frontmatter.lede}</h2>
+      <h2 class="heading-2">{frontmatter.description}</h2>
     </div>
     <div class="content">
       <MarkdownContent>
