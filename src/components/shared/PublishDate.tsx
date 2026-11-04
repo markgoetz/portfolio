@@ -6,7 +6,7 @@ export type PublishDateProps = {
 
 const PublishDate = ({ date }: PublishDateProps) => {
   const parsedTime = parseISO(date);
-  const formattedTime = format(parsedTime, "d-MMM y");
+  const formattedTime = format(parsedTime, "d-MMM-y");
 
   return (
     <div className="dateContainer">
